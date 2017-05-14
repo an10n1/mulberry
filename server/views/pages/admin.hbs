@@ -1,0 +1,210 @@
+{{> navigation}}
+
+<div class="admin-container container">
+  <div class="row">
+    <div class="col-sm-12">
+      <h3>Admin panel</h3>
+    </div>
+  </div>
+
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" data-toggle="tab" href="#adminSettings" role="tab">Project Settings</a>
+    </li>
+
+    {{#each courses}}
+      <li class="nav-item">
+        <a class="nav-link" data-toggle="tab" href="#tab_{{_id}}" role="tab">Course {{inc @key}}</a>
+      </li>
+    {{/each}}
+
+    <li class="nav-item">
+      <a class="nav-link  add-course" data-toggle="tab" href="#new" role="tab">Создать курс</a>
+    </li>
+
+    {{!-- 		<li class="nav-item">
+      <a class="nav-link" data-toggle="tab" href="#adminChat" role="tab">Чат</a>
+    </li> --}}
+  </ul>
+
+  <!-- Tab panes -->
+  <div class="tab-content">
+
+    <div class="tab-pane active" id="adminSettings" role="tabpanel">
+      <div class="row">
+        <div class="col-sm-8 offset-2">
+          <form>
+            <div class="container">
+
+              <input type="hidden" name="adminName" value="admin" />
+
+              <div class="form-group row">
+                <label for="first_name" class="col-4 col-form-label">Адресс:</label>
+                <div class="col-8">
+                  <input type="text" class="form-control" name="adminAddr" placeholder="м.Запоріжжя, вул.Матросова, 23" value="{{users.addr}}"/>
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="last_name" class="col-4 col-form-label">Телефон:</label>
+                <div class="col-8">
+                  <input type="tel" class="form-control" name="adminTel" placeholder="+38 (068) 51-18-555" value="{{users.tel}}"/>
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="last_name" class="col-4 col-form-label">Email:</label>
+                <div class="col-8">
+                  <input type="email" class="form-control" name="adminEmail" placeholder="real.it.ua@gmail.com" value="{{users.email}}"/>
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="last_name" class="col-4 col-form-label">Facebook link:</label>
+                <div class="col-8">
+                  <input type="url" class="form-control" name="adminFB" placeholder="https://www.facebook.com/Real-It-School-1361748870513595/" value="{{users.fb}}"/>
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="last_name" class="col-4 col-form-label">Vkontakte link:</label>
+                <div class="col-8">
+                  <input type="url" class="form-control" name="adminVK" placeholder="https://vk.com/realitschool" value="{{users.vk}}"/>
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="last_name" class="col-4 col-form-label">Google+ link:</label>
+                <div class="col-8">
+                  <input type="url" class="form-control" name="adminGoo" placeholder="" value="{{users.goo}}"/>
+                </div>
+              </div>
+
+              <br><br>
+
+              <div class="form-group row">
+                <div class="col-8">
+                  <button type="submit" data-name="admin" class="btn btn-outline-success js-update-admin">Обновить</button>
+                </div>
+              </div>
+
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    {{#each courses}}
+
+      {{> adminCourseTab}}
+
+    {{/each}}
+
+    <div class="tab-pane add-course" id="new" role="tabpanel">
+      <div class="row">
+        <div class="col-sm-8 offset-2">
+          <form>
+            <div class="container">
+
+              <div class="form-group row">
+                <label for="first_name" class="col-4 col-form-label">Курс:</label>
+                <div class="col-8">
+                  <input type="text" class="form-control" name="courseName" placeholder="Шикарный" />
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="last_name" class="col-4 col-form-label">Технологии:</label>
+                <div class="col-8">
+                  <input type="text" class="form-control" name="courseService" placeholder="Невообразимые" />
+                  <small class="form-text text-muted">Список технологий, делитель - ","</small>
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="last_name" class="col-4 col-form-label">Длительность:</label>
+                <div class="col-4">
+                  <input type="text" class="form-control" name="courseTime" placeholder="Вечность" />
+                </div>
+                <div class="col-4">
+                  <input type="text" class="form-control" name="courseDay" placeholder="Вт / Чт" value="{{day}}"/>
+                  <small class="form-text text-muted">Дни недели</small>
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="last_name" class="col-4 col-form-label">Ближайший курс: / Мест:</label>
+                <div class="col-4">
+                  <input type="text" class="form-control" name="courseDate" placeholder="Никогда" />
+                </div>
+                <div class="col-4">
+                  <input type="text" class="form-control" name="coursePlace" placeholder="Много" />
+                  <small class="form-text text-muted">Количество оставшихся мест</small>
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="teacherList" class="col-4 col-form-label">Преподаватель:</label>
+                <div class="col-8 input-group">
+                  <select class="form-control1" name="courseTeacher">
+                    <option data-val="0">None</option>
+                    <option data-val="1">Денис Черкасов</option>
+                    <option data-val="2">Юрий Олейник</option>
+                    <option data-val="3">Андрей Воропай</option>
+                    <option data-val="5">Анна Куприна</option>
+                    <option data-val="6">Ольга Сладкова</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="form-group row">
+                <label for="last_name" class="col-4 col-form-label">Стоимость:</label>
+                <div class="col-8 input-group">
+                  <input type="text" class="form-control" name="courseCoast" placeholder="Дорого" />
+                  <div class="input-group-btn">
+                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Валюта
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right">
+                      <a class="dropdown-item js-currency" href="#">грн</a>
+                      <a class="dropdown-item js-currency" href="#">USD</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="form-group row" style="margin: 0;">
+                <div class="form-control js-is-contenteditable" name="courseDescr" contenteditable="true"></div>
+                <span class="close-btn">+</span>
+              </div>
+
+              <div class="form-group row" style="margin: 0;">
+                <textarea class="form-control js-is-contenteditable" name="courseLessons"></textarea>
+                <span class="close-btn">+</span>
+              </div>
+
+              <br>
+
+              <div class="form-group row" style="margin: 0;">
+                <div class="col-12">
+                  <button type="submit" class="btn btn-outline-success js-create">Сохранить</button>
+                  <button type="submit" class="btn btn-outline-success js-update-descr">Описание</button>
+
+                  <button type="submit" class="btn btn-outline-success js-update-lessons">Программа</button>
+                </div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+</div>
+
+{{> modals/admin}}
+
+{{> copyright}}

@@ -1,0 +1,117 @@
+<div class="tab-pane" id="tab_{{_id}}" role="tabpanel">
+  <div class="row">
+    <div class="col-sm-8 offset-2">
+      <form>
+        <div class="container">
+
+          <div class="form-group row">
+            <label for="first_name" class="col-4 col-form-label">Курс:</label>
+            <div class="col-8">
+              <input type="text" class="form-control" name="courseName" placeholder="Введення в веб програмування" value="{{name}}" />
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="last_name" class="col-4 col-form-label">Технологии:</label>
+            <div class="col-8">
+              <input type="text" class="form-control" name="courseService" placeholder="HTML 5, CSS 3, Photoshop/GIMP" value="{{services}}"/>
+              <small class="form-text text-muted">Список технологий, делитель - ","</small>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="last_name" class="col-4 col-form-label">Длительность:</label>
+            <div class="col-4">
+              <input type="text" class="form-control" name="courseTime" placeholder="5 занять по 2.5 години" value="{{time}}"/>
+            </div>
+            <div class="col-4">
+              <input type="text" class="form-control" name="courseDay" placeholder="Вт / Чт" value="{{day}}"/>
+              <small class="form-text text-muted">Дни недели</small>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="last_name" class="col-4 col-form-label">Ближайший курс: / Мест:</label>
+            <div class="col-4">
+              <input type="text" class="form-control" name="courseDate" placeholder="01.01.17" value="{{date}}"/>
+            </div>
+            <div class="col-4">
+              <input type="number" class="form-control" name="coursePlace" placeholder="123456" value="{{place}}"/>
+              <small class="form-text text-muted">Количество оставшихся мест</small>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="teacherList" class="col-4 col-form-label">Преподаватель:</label>
+            <div class="col-8 input-group">
+              <select class="form-control1" name="courseTeacher">
+                {{#compare 1 "==" teacher }}
+                  <option data-val="1" selected>Денис Черкасов</option>
+                {{/compare}}
+
+                {{#compare 2 "==" teacher }}
+                  <option data-val="2" selected>Юрий Олейник</option>
+                {{/compare}}
+
+                {{#compare 3 "==" teacher }}
+                  <option data-val="3" selected>Андрей Воропай</option>
+                {{/compare}}
+
+                {{#compare 4 "==" teacher }}
+                  <option data-val="4" selected>Анна Куприна</option>
+                {{/compare}}
+
+                {{#compare 5 "==" teacher }}
+                  <option data-val="5" selected>Ольга Сладкова</option>
+                {{/compare}}
+
+                <option data-val="0">None</option>
+                <option data-val="1">Денис Черкасов</option>
+                <option data-val="2">Юрий Олейник</option>
+                <option data-val="3">Андрей Воропай</option>
+                <option data-val="4">Анна Куприна</option>
+                <option data-val="5">Ольга Сладкова</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group row">
+            <label for="last_name" class="col-4 col-form-label">Стоимость:</label>
+            <div class="col-8 input-group">
+              <input type="text" class="form-control" name="courseCoast" placeholder="1 billion dollars" value="{{coast}}" />
+              <div class="input-group-btn">
+                <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Валюта
+                </button>
+                <div class="dropdown-menu dropdown-menu-right">
+                  <a class="dropdown-item js-currency" href="#">грн</a>
+                  <a class="dropdown-item js-currency" href="#">USD</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="form-group row" style="margin: 0;">
+            <div class="form-control js-is-contenteditable" name="courseDescr" contenteditable="true">{{{descr}}}</div>
+            <span class="close-btn">+</span>
+          </div>
+
+          <div class="form-group row" style="margin: 0;">
+            <textarea class="form-control js-is-contenteditable" name="courseLessons">{{lessons}}</textarea>
+            <span class="close-btn">+</span>
+          </div>
+          <br><br>
+
+          <div class="form-group row">
+            <div class="col-12">
+              <button type="submit" class="btn btn-outline-primary js-update" data-id="{{_id}}">Сохранить</button>
+              <button type="submit" class="btn btn-outline-success js-update-descr" data-id="{{_id}}">Описание</button>
+              <button type="submit" class="btn btn-outline-success js-update-lessons" data-id="{{_id}}">Программа</button>
+              <button type="submit" style="float:right" class="btn btn-outline-danger js-remove" data-id="{{_id}}">Удалить</button>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
