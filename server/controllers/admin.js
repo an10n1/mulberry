@@ -75,7 +75,8 @@ exports.index = function (request, response) {
           showMenu: false,
           showLogout: true,
           users: docs,
-          courses: coursesList
+          courses: coursesList,
+          layout: 'admin'
         })
       },
         'admin')

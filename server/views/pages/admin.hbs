@@ -1,210 +1,328 @@
-{{> navigation}}
+<div class="wrapper">
+  <div class="sidebar" data-background-color="white" data-active-color="danger">
 
-<div class="admin-container container">
-  <div class="row">
-    <div class="col-sm-12">
-      <h3>Admin panel</h3>
+    <!--
+      Tip 1: you can change the color of the sidebar's background using: data-background-color="white | black"
+      Tip 2: you can change the color of the active button using the data-active-color="primary | info | success | warning | danger"
+    -->
+
+    <div class="sidebar-wrapper">
+      <div class="logo">
+        <a href="http://www.creative-tim.com" class="simple-text">
+          Mulberry
+        </a>
+      </div>
+
+      <ul class="nav">
+        <li class="active">
+          <a href="dashboard.html">
+            <i class="ti-panel"></i>
+            <p>Dashboard</p>
+          </a>
+        </li>
+        <li>
+          <a href="user.html">
+            <i class="ti-user"></i>
+            <p>Pages</p>
+          </a>
+        </li>
+        <li>
+          <a href="table.html">
+            <i class="ti-view-list-alt"></i>
+            <p>Followers</p>
+          </a>
+        </li>
+        <li>
+          <a href="typography.html">
+            <i class="ti-text"></i>
+            <p>Typography</p>
+          </a>
+        </li>
+        <li>
+          <a href="icons.html">
+            <i class="ti-pencil-alt2"></i>
+            <p>Media</p>
+          </a>
+        </li>
+        <li>
+          <a href="maps.html">
+            <i class="ti-map"></i>
+            <p>Contacts</p>
+          </a>
+        </li>
+        <li>
+          <a href="notifications.html">
+            <i class="ti-bell"></i>
+            <p>Notifications</p>
+          </a>
+        </li>
+        <li class="active-pro">
+          <a href="upgrade.html">
+            <i class="ti-export"></i>
+            <p>Upgrade to PRO</p>
+          </a>
+        </li>
+      </ul>
     </div>
   </div>
 
-  <!-- Nav tabs -->
-  <ul class="nav nav-tabs" role="tablist">
-    <li class="nav-item">
-      <a class="nav-link active" data-toggle="tab" href="#adminSettings" role="tab">Project Settings</a>
-    </li>
+  <div class="main-panel">
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar bar1"></span>
+            <span class="icon-bar bar2"></span>
+            <span class="icon-bar bar3"></span>
+          </button>
+          <a class="navbar-brand" href="#">Dashboard</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <i class="ti-panel"></i>
+                <p>Stats</p>
+              </a>
+            </li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                <i class="ti-bell"></i>
+                <p class="notification">5</p>
+                <p>Notifications</p>
+                <b class="caret"></b>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href="#">Notification 1</a></li>
+                <li><a href="#">Notification 2</a></li>
+                <li><a href="#">Notification 3</a></li>
+                <li><a href="#">Notification 4</a></li>
+                <li><a href="#">Another notification</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">
+                <i class="ti-settings"></i>
+                <p>Settings</p>
+              </a>
+            </li>
+          </ul>
 
-    {{#each courses}}
-      <li class="nav-item">
-        <a class="nav-link" data-toggle="tab" href="#tab_{{_id}}" role="tab">Course {{inc @key}}</a>
-      </li>
-    {{/each}}
-
-    <li class="nav-item">
-      <a class="nav-link  add-course" data-toggle="tab" href="#new" role="tab">Создать курс</a>
-    </li>
-
-    {{!-- 		<li class="nav-item">
-      <a class="nav-link" data-toggle="tab" href="#adminChat" role="tab">Чат</a>
-    </li> --}}
-  </ul>
-
-  <!-- Tab panes -->
-  <div class="tab-content">
-
-    <div class="tab-pane active" id="adminSettings" role="tabpanel">
-      <div class="row">
-        <div class="col-sm-8 offset-2">
-          <form>
-            <div class="container">
-
-              <input type="hidden" name="adminName" value="admin" />
-
-              <div class="form-group row">
-                <label for="first_name" class="col-4 col-form-label">Адресс:</label>
-                <div class="col-8">
-                  <input type="text" class="form-control" name="adminAddr" placeholder="м.Запоріжжя, вул.Матросова, 23" value="{{users.addr}}"/>
-                </div>
-              </div>
-
-              <div class="form-group row">
-                <label for="last_name" class="col-4 col-form-label">Телефон:</label>
-                <div class="col-8">
-                  <input type="tel" class="form-control" name="adminTel" placeholder="+38 (068) 51-18-555" value="{{users.tel}}"/>
-                </div>
-              </div>
-
-              <div class="form-group row">
-                <label for="last_name" class="col-4 col-form-label">Email:</label>
-                <div class="col-8">
-                  <input type="email" class="form-control" name="adminEmail" placeholder="real.it.ua@gmail.com" value="{{users.email}}"/>
-                </div>
-              </div>
-
-              <div class="form-group row">
-                <label for="last_name" class="col-4 col-form-label">Facebook link:</label>
-                <div class="col-8">
-                  <input type="url" class="form-control" name="adminFB" placeholder="https://www.facebook.com/Real-It-School-1361748870513595/" value="{{users.fb}}"/>
-                </div>
-              </div>
-
-              <div class="form-group row">
-                <label for="last_name" class="col-4 col-form-label">Vkontakte link:</label>
-                <div class="col-8">
-                  <input type="url" class="form-control" name="adminVK" placeholder="https://vk.com/realitschool" value="{{users.vk}}"/>
-                </div>
-              </div>
-
-              <div class="form-group row">
-                <label for="last_name" class="col-4 col-form-label">Google+ link:</label>
-                <div class="col-8">
-                  <input type="url" class="form-control" name="adminGoo" placeholder="" value="{{users.goo}}"/>
-                </div>
-              </div>
-
-              <br><br>
-
-              <div class="form-group row">
-                <div class="col-8">
-                  <button type="submit" data-name="admin" class="btn btn-outline-success js-update-admin">Обновить</button>
-                </div>
-              </div>
-
-            </div>
-          </form>
         </div>
       </div>
-    </div>
+    </nav>
 
-    {{#each courses}}
 
-      {{> adminCourseTab}}
-
-    {{/each}}
-
-    <div class="tab-pane add-course" id="new" role="tabpanel">
-      <div class="row">
-        <div class="col-sm-8 offset-2">
-          <form>
-            <div class="container">
-
-              <div class="form-group row">
-                <label for="first_name" class="col-4 col-form-label">Курс:</label>
-                <div class="col-8">
-                  <input type="text" class="form-control" name="courseName" placeholder="Шикарный" />
-                </div>
-              </div>
-
-              <div class="form-group row">
-                <label for="last_name" class="col-4 col-form-label">Технологии:</label>
-                <div class="col-8">
-                  <input type="text" class="form-control" name="courseService" placeholder="Невообразимые" />
-                  <small class="form-text text-muted">Список технологий, делитель - ","</small>
-                </div>
-              </div>
-
-              <div class="form-group row">
-                <label for="last_name" class="col-4 col-form-label">Длительность:</label>
-                <div class="col-4">
-                  <input type="text" class="form-control" name="courseTime" placeholder="Вечность" />
-                </div>
-                <div class="col-4">
-                  <input type="text" class="form-control" name="courseDay" placeholder="Вт / Чт" value="{{day}}"/>
-                  <small class="form-text text-muted">Дни недели</small>
-                </div>
-              </div>
-
-              <div class="form-group row">
-                <label for="last_name" class="col-4 col-form-label">Ближайший курс: / Мест:</label>
-                <div class="col-4">
-                  <input type="text" class="form-control" name="courseDate" placeholder="Никогда" />
-                </div>
-                <div class="col-4">
-                  <input type="text" class="form-control" name="coursePlace" placeholder="Много" />
-                  <small class="form-text text-muted">Количество оставшихся мест</small>
-                </div>
-              </div>
-
-              <div class="form-group row">
-                <label for="teacherList" class="col-4 col-form-label">Преподаватель:</label>
-                <div class="col-8 input-group">
-                  <select class="form-control1" name="courseTeacher">
-                    <option data-val="0">None</option>
-                    <option data-val="1">Денис Черкасов</option>
-                    <option data-val="2">Юрий Олейник</option>
-                    <option data-val="3">Андрей Воропай</option>
-                    <option data-val="5">Анна Куприна</option>
-                    <option data-val="6">Ольга Сладкова</option>
-                  </select>
-                </div>
-              </div>
-
-              <div class="form-group row">
-                <label for="last_name" class="col-4 col-form-label">Стоимость:</label>
-                <div class="col-8 input-group">
-                  <input type="text" class="form-control" name="courseCoast" placeholder="Дорого" />
-                  <div class="input-group-btn">
-                    <button type="button" class="btn btn-secondary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Валюта
-                    </button>
-                    <div class="dropdown-menu dropdown-menu-right">
-                      <a class="dropdown-item js-currency" href="#">грн</a>
-                      <a class="dropdown-item js-currency" href="#">USD</a>
+    <div class="content">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-3 col-sm-6">
+            <div class="card">
+              <div class="content">
+                <div class="row">
+                  <div class="col-xs-5">
+                    <div class="icon-big icon-warning text-center">
+                      <i class="ti-server"></i>
+                    </div>
+                  </div>
+                  <div class="col-xs-7">
+                    <div class="numbers">
+                      <p>Capacity</p>
+                      105GB
                     </div>
                   </div>
                 </div>
-              </div>
-
-              <div class="form-group row" style="margin: 0;">
-                <div class="form-control js-is-contenteditable" name="courseDescr" contenteditable="true"></div>
-                <span class="close-btn">+</span>
-              </div>
-
-              <div class="form-group row" style="margin: 0;">
-                <textarea class="form-control js-is-contenteditable" name="courseLessons"></textarea>
-                <span class="close-btn">+</span>
-              </div>
-
-              <br>
-
-              <div class="form-group row" style="margin: 0;">
-                <div class="col-12">
-                  <button type="submit" class="btn btn-outline-success js-create">Сохранить</button>
-                  <button type="submit" class="btn btn-outline-success js-update-descr">Описание</button>
-
-                  <button type="submit" class="btn btn-outline-success js-update-lessons">Программа</button>
+                <div class="footer">
+                  <hr />
+                  <div class="stats">
+                    <i class="ti-reload"></i> Updated now
+                  </div>
                 </div>
               </div>
             </div>
-          </form>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="card">
+              <div class="content">
+                <div class="row">
+                  <div class="col-xs-5">
+                    <div class="icon-big icon-success text-center">
+                      <i class="ti-wallet"></i>
+                    </div>
+                  </div>
+                  <div class="col-xs-7">
+                    <div class="numbers">
+                      <p>Revenue</p>
+                      $1,345
+                    </div>
+                  </div>
+                </div>
+                <div class="footer">
+                  <hr />
+                  <div class="stats">
+                    <i class="ti-calendar"></i> Last day
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="card">
+              <div class="content">
+                <div class="row">
+                  <div class="col-xs-5">
+                    <div class="icon-big icon-danger text-center">
+                      <i class="ti-pulse"></i>
+                    </div>
+                  </div>
+                  <div class="col-xs-7">
+                    <div class="numbers">
+                      <p>Errors</p>
+                      23
+                    </div>
+                  </div>
+                </div>
+                <div class="footer">
+                  <hr />
+                  <div class="stats">
+                    <i class="ti-timer"></i> In the last hour
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-sm-6">
+            <div class="card">
+              <div class="content">
+                <div class="row">
+                  <div class="col-xs-5">
+                    <div class="icon-big icon-info text-center">
+                      <i class="ti-twitter-alt"></i>
+                    </div>
+                  </div>
+                  <div class="col-xs-7">
+                    <div class="numbers">
+                      <p>Followers</p>
+                      +45
+                    </div>
+                  </div>
+                </div>
+                <div class="footer">
+                  <hr />
+                  <div class="stats">
+                    <i class="ti-reload"></i> Updated now
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+
+          <div class="col-md-12">
+            <div class="card">
+              <div class="header">
+                <h4 class="title">Users Behavior</h4>
+                <p class="category">24 Hours performance</p>
+              </div>
+              <div class="content">
+                <div id="chartHours" class="ct-chart"></div>
+                <div class="footer">
+                  <div class="chart-legend">
+                    <i class="fa fa-circle text-info"></i> Open
+                    <i class="fa fa-circle text-danger"></i> Click
+                    <i class="fa fa-circle text-warning"></i> Click Second Time
+                  </div>
+                  <hr>
+                  <div class="stats">
+                    <i class="ti-reload"></i> Updated 3 minutes ago
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card">
+              <div class="header">
+                <h4 class="title">Email Statistics</h4>
+                <p class="category">Last Campaign Performance</p>
+              </div>
+              <div class="content">
+                <div id="chartPreferences" class="ct-chart ct-perfect-fourth"></div>
+
+                <div class="footer">
+                  <div class="chart-legend">
+                    <i class="fa fa-circle text-info"></i> Open
+                    <i class="fa fa-circle text-danger"></i> Bounce
+                    <i class="fa fa-circle text-warning"></i> Unsubscribe
+                  </div>
+                  <hr>
+                  <div class="stats">
+                    <i class="ti-timer"></i> Campaign sent 2 days ago
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card ">
+              <div class="header">
+                <h4 class="title">2015 Sales</h4>
+                <p class="category">All products including Taxes</p>
+              </div>
+              <div class="content">
+                <div id="chartActivity" class="ct-chart"></div>
+
+                <div class="footer">
+                  <div class="chart-legend">
+                    <i class="fa fa-circle text-info"></i> Tesla Model S
+                    <i class="fa fa-circle text-warning"></i> BMW 5 Series
+                  </div>
+                  <hr>
+                  <div class="stats">
+                    <i class="ti-check"></i> Data information certified
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
+
+    <footer class="footer">
+      <div class="container-fluid">
+        <nav class="pull-left" style="display: none;">
+          <ul>
+
+            <li>
+              <a href="http://www.creative-tim.com">
+                Creative Tim
+              </a>
+            </li>
+            <li>
+              <a href="http://blog.creative-tim.com">
+                Blog
+              </a>
+            </li>
+            <li>
+              <a href="http://www.creative-tim.com/license">
+                Licenses
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <div class="copyright pull-right">
+          &copy; <script>document.write(new Date().getFullYear())</script>, made with <i class="fa fa-heart heart"></i> by <a href="http://www.creative-tim.com">Creative Tim</a>
+          &nbsp; modified by <a href="http://www.antonashin.pp.ua"><b>Anton Ashin</b></a>
+        </div>
+      </div>
+    </footer>
+
   </div>
-
-
 </div>
 
-{{> modals/admin}}
-
-{{> copyright}}

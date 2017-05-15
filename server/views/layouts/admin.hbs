@@ -4,7 +4,7 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
 
     <link rel='dns-prefetch' href='https://maxcdn.bootstrapcdn.com'>
     <link rel='dns-prefetch' href='https://cdnjs.cloudflare.com'>
@@ -17,19 +17,78 @@
     <link rel="shortcut icon" href="/client/media/icons/favicon.ico">
     <meta name="msapplication-config" content="/client/media/icons/favicon.png/browserconfig.xml">
     <meta name="theme-color" content="#ffffff">
-    <meta name="yandex-verification" content="212e2ff5c67335b3" />
 
 
-    <title>Mulberry</title>
+    <!-- Bootstrap core CSS     -->
+    <link href="/admin/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Animation library for notifications   -->
+    <link href="/admin/css/animate.min.css" rel="stylesheet"/>
+
+    <!--  Paper Dashboard core CSS    -->
+    <link href="/admin/css/paper-dashboard.css" rel="stylesheet"/>
+
+
+    <!--  CSS for Demo Purpose, don't include it in your project     -->
+    <link href="/admin/css/demo.css" rel="stylesheet" />
+
+
+    <!--  Fonts and icons     -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
+    <link href="/admin/css/themify-icons.css" rel="stylesheet">
+
+
+    <title>Mulberry Admin Panel</title>
   </head>
 
   <body style="opacity: 0;">
 
     {{{body}}}
 
+
+
+    <!--   Core JS Files   -->
+    <script src="/admin/js/jquery-1.10.2.js" type="text/javascript"></script>
+    <script src="/admin/js/bootstrap.min.js" type="text/javascript"></script>
+
+    <!--  Checkbox, Radio & Switch Plugins -->
+    <script src="/admin/js/bootstrap-checkbox-radio.js"></script>
+
+    <!--  Charts Plugin -->
+    <script src="/admin/js/chartist.min.js"></script>
+
+    <!--  Notifications Plugin    -->
+    <script src="/admin/js/bootstrap-notify.js"></script>
+
+    <!--  Google Maps Plugin    -->
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js"></script>
+
+    <!-- Paper Dashboard Core javascript and methods for Demo purpose -->
+    <script src="/admin/js/paper-dashboard.js"></script>
+
+    <!-- Paper Dashboard DEMO methods, don't include it in your project! -->
+    <script src="/admin/js/demo.js"></script>
+
+    <script type="text/javascript">
+$(document).ready(function(){
+  $('body').animate({opacity: 1}, 500);
+
+  demo.initChartist();
+
+  $.notify({
+    icon: 'ti-gift',
+    message: "Welcome to <b>Paper Dashboard</b> - a beautiful Bootstrap freebie for your next project."
+
+  },{
+    type: 'success',
+    timer: 4000
+  });
+
+});
+    </script>
+
     <script src="/js/build/modernizr-bundle.js"></script>
-    <script src="/js/build/index.js"></script>
-    <script src="/js/build/style.js"></script>
   </body>
 
 </html>
