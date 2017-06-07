@@ -1,0 +1,26 @@
+.static-nav{
+  height: 50px;
+
+  .float-left{
+    float: left;
+  }
+
+  .float-right{
+    float: right;
+  }
+  ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: table;
+    table-layout: fixed;
+
+    li{
+      display: table-cell;
+    }
+  }
+}
+
+#site-navigation{
+  margin-bottom: 0;
+}

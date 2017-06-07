@@ -1,0 +1,48 @@
+/*
+ * Support Tool ::: CORE SCSS FILE
+ * Owner: Anton Ashin
+ *
+ * SMACSS + SCSS starter v2.1
+ * Inspired by SMACSS http://smacss.com
+ * Coding rules : https://github.com/necolas/idiomatic-css
+ *
+ * Author: Anton Ashin
+ * Author email: antonashin@gmail.com
+ * Author Web: http://www.antonashin.pp.ua
+ *
+ */
+
+@import "tools/mixins";
+
+@import "layout/l-index";
+
+@import "modules/navigation";
+@import "modules/footer";
+
+@font-face {
+  font-family: GOTHIC;
+  src: url('/wp-content/themes/mulberry/img/fonts/GOTHIC.ttf');
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.page-wrapper {
+  min-height: 100%;
+  margin-bottom: -300px;
+}
+
+* html .page-wrapper {
+  height: 100%;
+}
+
+.page-buffer {
+  height: 300px;
+}
+
+a:hover{
+  cursor: pointer;
+}

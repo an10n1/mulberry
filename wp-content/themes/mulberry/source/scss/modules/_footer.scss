@@ -1,0 +1,96 @@
+.globalFooter{
+  padding: 25px 0 0;
+  background: #f2f2f2;
+  font-family: GOTHIC, sans-serif;
+
+  .copyright{
+    text-align: center;
+    margin-top: 70px;
+  }
+
+  .small-logo{
+    margin-bottom: 25px;
+  }
+
+  h4{
+    margin-top: 70px;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+  }
+
+  ul{
+    list-style-type: none;
+  }
+
+  a{
+    color: #000;
+  }
+
+  .contact-list{
+    li{
+      padding-bottom: 1rem;
+    }
+  }
+
+  .social-list{
+    padding: 0;
+    margin: 0;
+    margin-top: 30px;
+    display: table;
+    table-layout: fixed;
+
+    li{
+      display: table-cell;
+      padding-right: 15px;
+
+      a{
+        background: url('img/icons/social.png') no-repeat;
+        width: 40px;
+        height: 40px;
+        display: block;
+        opacity: .75;
+      }
+
+      &:hover a{
+        opacity: 1;
+      }
+
+      &:nth-of-type(1) a{
+        background-position: 0 0;
+      }
+
+      &:nth-of-type(2) a{
+        background-position: -52px 0;
+      }
+
+      &:nth-of-type(3) a{
+        background-position: -106px -2px;
+      }
+    }
+  }
+
+  .footer-menu{
+    margin-top: 50px;
+
+    li{
+      padding-bottom: 15px;
+    }
+  }
+
+  .subscribeForm{
+    margin-bottom: 15px;
+
+    input, button {
+      border-radius: 0;
+      height: 45px;
+      border-color: #b3b3b3;
+      font-family: GOTHIC, sans-serif;
+    }
+    
+    button{
+      background: #8542a8;
+      color: #fff;
+      text-transform: uppercase;
+    }
+  }
+}

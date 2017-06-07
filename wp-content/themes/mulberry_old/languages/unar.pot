@@ -1,0 +1,2558 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Unar\n"
+"POT-Creation-Date: 2017-03-16 15:27+0700\n"
+"PO-Revision-Date: 2017-03-16 15:25+0700\n"
+"Last-Translator: Rizki Akmanda <rizkiakmanda@gmail.com>\n"
+"Language-Team: themesawesome <admin@themesawesome.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.9\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: _e;__;esc_html_e;esc_html__\n"
+"X-Poedit-SearchPath-0: unar\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPath-2: .\n"
+"X-Poedit-SearchPath-3: unar\n"
+"X-Poedit-SearchPathExcluded-0: unar/js\n"
+"X-Poedit-SearchPathExcluded-1: unar-pro\n"
+"X-Poedit-SearchPathExcluded-2: unar/.git\n"
+
+#: twentyfifteen/404.php:17 twentysixteen/404.php:17
+#: unar/inc/format/content-no-result.php:8
+msgid "Oops! That page can&rsquo;t be found."
+msgstr ""
+
+#: twentyfifteen/404.php:21 twentyfourteen/404.php:21 twentysixteen/404.php:21
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr ""
+
+#: twentyfifteen/archive.php:49 twentyfifteen/index.php:46
+#: twentyfifteen/search.php:38 twentysixteen/archive.php:49
+#: twentysixteen/index.php:46 twentysixteen/search.php:37
+msgid "Previous page"
+msgstr ""
+
+#: twentyfifteen/archive.php:50 twentyfifteen/index.php:47
+#: twentyfifteen/search.php:39 twentysixteen/archive.php:50
+#: twentysixteen/index.php:47 twentysixteen/search.php:38
+msgid "Next page"
+msgstr ""
+
+#: twentyfifteen/archive.php:51 twentyfifteen/content-link.php:40
+#: twentyfifteen/content-page.php:29 twentyfifteen/content.php:42
+#: twentyfifteen/image.php:63 twentyfifteen/index.php:48
+#: twentyfifteen/search.php:40 twentysixteen/archive.php:51
+#: twentysixteen/image.php:60 twentysixteen/index.php:48
+#: twentysixteen/search.php:39 twentysixteen/template-parts/content-page.php:27
+#: twentysixteen/template-parts/content-single.php:29
+#: twentysixteen/template-parts/content.php:37
+msgid "Page"
+msgstr ""
+
+#: twentyfifteen/author-bio.php:12
+msgid "Published by"
+msgstr ""
+
+#: twentyfifteen/author-bio.php:34
+#: twentysixteen/template-parts/biography.php:33
+#, php-format
+msgid "View all posts by %s"
+msgstr ""
+
+#: twentyfifteen/comments.php:53 twentyfourteen/comments.php:59
+#: twentysixteen/comments.php:69 unar/comments.php:53
+msgid "Comments are closed."
+msgstr ""
+
+#: twentyfifteen/content-link.php:31 twentyfifteen/content.php:33
+#: twentyfifteen/inc/template-tags.php:238
+#, php-format
+msgid "Continue reading %s"
+msgstr ""
+
+#: twentyfifteen/content-link.php:36 twentyfifteen/content-page.php:25
+#: twentyfifteen/content.php:38 twentyfifteen/image.php:59
+#: twentyfourteen/content-aside.php:53 twentyfourteen/content-audio.php:53
+#: twentyfourteen/content-gallery.php:53 twentyfourteen/content-image.php:53
+#: twentyfourteen/content-link.php:53 twentyfourteen/content-page.php:22
+#: twentyfourteen/content-quote.php:53 twentyfourteen/content-video.php:53
+#: twentyfourteen/content.php:61 twentyfourteen/image.php:54
+#: twentysixteen/image.php:56 twentysixteen/template-parts/content-page.php:23
+#: twentysixteen/template-parts/content-single.php:25
+#: twentysixteen/template-parts/content.php:33
+msgid "Pages:"
+msgstr ""
+
+#: twentyfifteen/content-link.php:56 twentyfifteen/content-page.php:35
+#: twentyfifteen/content-search.php:28 twentyfifteen/content-search.php:33
+#: twentyfifteen/content.php:57 twentyfifteen/image.php:71
+#: twentyfourteen/content-aside.php:40 twentyfourteen/content-audio.php:40
+#: twentyfourteen/content-gallery.php:40 twentyfourteen/content-image.php:40
+#: twentyfourteen/content-link.php:40 twentyfourteen/content-page.php:28
+#: twentyfourteen/content-quote.php:40 twentyfourteen/content-video.php:40
+#: twentyfourteen/content.php:42 twentyfourteen/image.php:34
+#: twentyfourteen/page-templates/contributors.php:35
+#: unar/inc/function/comment.php:33
+msgid "Edit"
+msgstr ""
+
+#: twentyfifteen/content-none.php:15 twentyfourteen/content-none.php:12
+#: twentysixteen/template-parts/content-none.php:13
+msgid "Nothing Found"
+msgstr ""
+
+#: twentyfifteen/content-none.php:22 twentyfourteen/content-none.php:18
+#: twentysixteen/template-parts/content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: twentyfifteen/content-none.php:26 twentyfourteen/content-none.php:22
+#: twentysixteen/template-parts/content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: twentyfifteen/content-none.php:31 twentyfourteen/content-none.php:27
+#: twentysixteen/template-parts/content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
+
+#: twentyfifteen/footer.php:25 twentyfourteen/footer.php:21
+#: twentysixteen/footer.php:51
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: twentyfifteen/footer.php:25 twentyfourteen/footer.php:21
+#: twentysixteen/footer.php:51
+#, php-format
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: twentyfifteen/functions.php:85 twentyfourteen/header.php:52
+#: twentysixteen/functions.php:88
+msgid "Primary Menu"
+msgstr ""
+
+#: twentyfifteen/functions.php:86 twentysixteen/functions.php:89
+msgid "Social Links Menu"
+msgstr ""
+
+#: twentyfifteen/functions.php:160
+msgid "Widget Area"
+msgstr ""
+
+#: twentyfifteen/functions.php:162 twentysixteen/functions.php:158
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: twentyfifteen/functions.php:282 twentysixteen/functions.php:284
+msgid "expand child menu"
+msgstr ""
+
+#: twentyfifteen/functions.php:283 twentysixteen/functions.php:285
+msgid "collapse child menu"
+msgstr ""
+
+#: twentyfifteen/header.php:26 twentyfourteen/header.php:53
+#: twentysixteen/header.php:27
+msgid "Skip to content"
+msgstr ""
+
+#: twentyfifteen/header.php:45
+msgid "Menu and widgets"
+msgstr ""
+
+#: twentyfifteen/image.php:24 twentyfourteen/image.php:65
+#: twentysixteen/image.php:24
+msgid "Previous Image"
+msgstr ""
+
+#: twentyfifteen/image.php:24 twentyfourteen/image.php:66
+#: twentysixteen/image.php:25
+msgid "Next Image"
+msgstr ""
+
+#: twentyfifteen/inc/back-compat.php:37 twentyfifteen/inc/back-compat.php:47
+#: twentyfifteen/inc/back-compat.php:60
+#, php-format
+msgid ""
+"Twenty Fifteen requires at least WordPress version 4.1. You are running "
+"version %s. Please upgrade and try again."
+msgstr ""
+
+#: twentyfifteen/inc/customizer.php:44 twentysixteen/inc/customizer.php:130
+msgid "Base Color Scheme"
+msgstr ""
+
+#: twentyfifteen/inc/customizer.php:59
+msgid "Header and Sidebar Text Color"
+msgstr ""
+
+#: twentyfifteen/inc/customizer.php:60 twentyfifteen/inc/customizer.php:76
+#: twentyfifteen/inc/customizer.php:81
+msgid "Applied to the header on small screens and the sidebar on wide screens."
+msgstr ""
+
+#: twentyfifteen/inc/customizer.php:75
+msgid "Header and Sidebar Background Color"
+msgstr ""
+
+#: twentyfifteen/inc/customizer.php:150 twentysixteen/inc/customizer.php:253
+#: unar/inc/cmb2/includes/CMB2_JS.php:106
+msgid "Default"
+msgstr ""
+
+#: twentyfifteen/inc/customizer.php:161 twentysixteen/inc/customizer.php:263
+msgid "Dark"
+msgstr ""
+
+#: twentyfifteen/inc/customizer.php:172 twentysixteen/inc/customizer.php:293
+msgid "Yellow"
+msgstr ""
+
+#: twentyfifteen/inc/customizer.php:183
+msgid "Pink"
+msgstr ""
+
+#: twentyfifteen/inc/customizer.php:194
+msgid "Purple"
+msgstr ""
+
+#: twentyfifteen/inc/customizer.php:205
+msgid "Blue"
+msgstr ""
+
+#: twentyfifteen/inc/template-tags.php:23 twentyfourteen/comments.php:34
+#: twentyfourteen/comments.php:52
+msgid "Comment navigation"
+msgstr ""
+
+#: twentyfifteen/inc/template-tags.php:26
+msgid "Older Comments"
+msgstr ""
+
+#: twentyfifteen/inc/template-tags.php:30
+msgid "Newer Comments"
+msgstr ""
+
+#: twentyfifteen/inc/template-tags.php:49
+#: twentysixteen/template-parts/content.php:14
+msgid "Featured"
+msgstr ""
+
+#: twentyfifteen/inc/template-tags.php:123
+#: twentysixteen/inc/template-tags.php:50
+#, php-format
+msgid "Leave a comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: twentyfifteen/search.php:18 twentyfourteen/search.php:18
+#: twentysixteen/search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: twentyfifteen/single.php:33 twentyfourteen/functions.php:262
+#: twentysixteen/single.php:34 unar/inc/cmb2/includes/CMB2_JS.php:141
+msgid "Next"
+msgstr ""
+
+#: twentyfifteen/single.php:34 twentysixteen/single.php:35
+msgid "Next post:"
+msgstr ""
+
+#: twentyfifteen/single.php:36 twentyfourteen/functions.php:261
+#: twentysixteen/single.php:37
+msgid "Previous"
+msgstr ""
+
+#: twentyfifteen/single.php:37 twentysixteen/single.php:38
+msgid "Previous post:"
+msgstr ""
+
+#: twentyfourteen/404.php:17
+msgid "Not Found"
+msgstr ""
+
+#: twentyfourteen/archive.php:31
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: twentyfourteen/archive.php:34
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: twentyfourteen/archive.php:37
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: twentyfourteen/archive.php:40 twentyfourteen/taxonomy-post_format.php:51
+msgid "Archives"
+msgstr ""
+
+#: twentyfourteen/author.php:31
+#, php-format
+msgid "All posts by %s"
+msgstr ""
+
+#: twentyfourteen/category.php:20
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: twentyfourteen/comments.php:35 twentyfourteen/comments.php:53
+msgid "&larr; Older Comments"
+msgstr ""
+
+#: twentyfourteen/comments.php:36 twentyfourteen/comments.php:54
+msgid "Newer Comments &rarr;"
+msgstr ""
+
+#: twentyfourteen/content-aside.php:37 twentyfourteen/content-audio.php:37
+#: twentyfourteen/content-gallery.php:37 twentyfourteen/content-image.php:37
+#: twentyfourteen/content-link.php:37 twentyfourteen/content-quote.php:37
+#: twentyfourteen/content-video.php:37 twentyfourteen/content.php:38
+#: twentyfourteen/inc/widgets.php:215
+msgid "Leave a comment"
+msgstr ""
+
+#: twentyfourteen/content-aside.php:37 twentyfourteen/content-audio.php:37
+#: twentyfourteen/content-gallery.php:37 twentyfourteen/content-image.php:37
+#: twentyfourteen/content-link.php:37 twentyfourteen/content-quote.php:37
+#: twentyfourteen/content-video.php:37 twentyfourteen/content.php:38
+#: twentyfourteen/inc/widgets.php:215
+msgid "1 Comment"
+msgstr ""
+
+#: twentyfourteen/content-aside.php:37 twentyfourteen/content-audio.php:37
+#: twentyfourteen/content-gallery.php:37 twentyfourteen/content-image.php:37
+#: twentyfourteen/content-link.php:37 twentyfourteen/content-quote.php:37
+#: twentyfourteen/content-video.php:37 twentyfourteen/content.php:38
+#: twentyfourteen/inc/widgets.php:215
+msgid "% Comments"
+msgstr ""
+
+#: twentyfourteen/content-aside.php:48 twentyfourteen/content-audio.php:48
+#: twentyfourteen/content-gallery.php:48 twentyfourteen/content-image.php:48
+#: twentyfourteen/content-link.php:48 twentyfourteen/content-quote.php:48
+#: twentyfourteen/content-video.php:48 twentyfourteen/content.php:56
+#: twentyfourteen/inc/template-tags.php:222
+#, php-format
+msgid "Continue reading %s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: twentyfourteen/functions.php:83
+msgid "Top primary menu"
+msgstr ""
+
+#: twentyfourteen/functions.php:84
+msgid "Secondary menu in left sidebar"
+msgstr ""
+
+#: twentyfourteen/functions.php:174 unar/functions.php:168
+msgid "Primary Sidebar"
+msgstr ""
+
+#: twentyfourteen/functions.php:176
+msgid "Main sidebar that appears on the left."
+msgstr ""
+
+#: twentyfourteen/functions.php:183
+msgid "Content Sidebar"
+msgstr ""
+
+#: twentyfourteen/functions.php:185
+msgid "Additional sidebar that appears on the right."
+msgstr ""
+
+#: twentyfourteen/functions.php:192
+msgid "Footer Widget Area"
+msgstr ""
+
+#: twentyfourteen/functions.php:194
+msgid "Appears in the footer section of the site."
+msgstr ""
+
+#: twentyfourteen/functions.php:523
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: twentyfourteen/header.php:48
+msgid "Search"
+msgstr ""
+
+#: twentyfourteen/inc/back-compat.php:37 twentyfourteen/inc/back-compat.php:47
+#: twentyfourteen/inc/back-compat.php:60
+#, php-format
+msgid ""
+"Twenty Fourteen requires at least WordPress version 3.6. You are running "
+"version %s. Please upgrade and try again."
+msgstr ""
+
+#: twentyfourteen/inc/customizer.php:37
+msgid "Site Title Color"
+msgstr ""
+
+#: twentyfourteen/inc/customizer.php:40
+msgid "Display Site Title &amp; Tagline"
+msgstr ""
+
+#: twentyfourteen/inc/customizer.php:44 twentyfourteen/inc/customizer.php:45
+msgid "May only be visible on wide screens."
+msgstr ""
+
+#: twentyfourteen/inc/customizer.php:47 twentyfourteen/inc/customizer.php:48
+msgid "Background may only be visible on wide screens."
+msgstr ""
+
+#: twentyfourteen/inc/customizer.php:53
+#: twentyfourteen/inc/featured-content.php:403
+msgid "Featured Content"
+msgstr ""
+
+#: twentyfourteen/inc/customizer.php:54
+#: twentyfourteen/inc/featured-content.php:404
+#, php-format
+msgid ""
+"Use a <a href=\"%1$s\">tag</a> to feature your posts. If no posts match the "
+"tag, <a href=\"%2$s\">sticky posts</a> will be displayed instead."
+msgstr ""
+
+#: twentyfourteen/inc/customizer.php:69
+msgid "Layout"
+msgstr ""
+
+#: twentyfourteen/inc/customizer.php:73
+msgid "Grid"
+msgstr ""
+
+#: twentyfourteen/inc/customizer.php:74
+msgid "Slider"
+msgstr ""
+
+#: twentyfourteen/inc/customizer.php:142
+msgid "Twenty Fourteen"
+msgstr ""
+
+#: twentyfourteen/inc/customizer.php:145
+#, php-format
+msgid ""
+"The home page features your choice of up to 6 posts prominently displayed in "
+"a grid or slider, controlled by a <a href=\"%1$s\">tag</a>; you can change "
+"the tag and layout in <a href=\"%2$s\">Appearance &rarr; Customize</a>. If "
+"no posts match the tag, <a href=\"%3$s\">sticky posts</a> will be displayed "
+"instead."
+msgstr ""
+
+#: twentyfourteen/inc/customizer.php:146
+#, php-format
+msgid ""
+"Enhance your site design by using <a href=\"%s\">Featured Images</a> for "
+"posts you&rsquo;d like to stand out (also known as post thumbnails). This "
+"allows you to associate an image with your post without inserting it. Twenty "
+"Fourteen uses featured images for posts and pages&mdash;above the "
+"title&mdash;and in the Featured Content area on the home page."
+msgstr ""
+
+#: twentyfourteen/inc/customizer.php:147
+#, php-format
+msgid ""
+"For an in-depth tutorial, and more tips and tricks, visit the <a href=\"%s"
+"\">Twenty Fourteen documentation</a>."
+msgstr ""
+
+#: twentyfourteen/inc/featured-content.php:426
+msgid "Tag Name"
+msgstr ""
+
+#: twentyfourteen/inc/featured-content.php:431
+msgid "Don&rsquo;t display tag on front end."
+msgstr ""
+
+#: twentyfourteen/inc/template-tags.php:50
+msgid "&larr; Previous"
+msgstr ""
+
+#: twentyfourteen/inc/template-tags.php:51
+msgid "Next &rarr;"
+msgstr ""
+
+#: twentyfourteen/inc/template-tags.php:58
+msgid "Posts navigation"
+msgstr ""
+
+#: twentyfourteen/inc/template-tags.php:85
+msgid "Post navigation"
+msgstr ""
+
+#: twentyfourteen/inc/template-tags.php:89
+msgid "<span class=\"meta-nav\">Published In</span>%title"
+msgstr ""
+
+#: twentyfourteen/inc/template-tags.php:91
+msgid "<span class=\"meta-nav\">Previous Post</span>%title"
+msgstr ""
+
+#: twentyfourteen/inc/template-tags.php:92
+msgid "<span class=\"meta-nav\">Next Post</span>%title"
+msgstr ""
+
+#: twentyfourteen/inc/template-tags.php:109
+msgid "Sticky"
+msgstr ""
+
+#: twentyfourteen/inc/widgets.php:34
+msgid "Twenty Fourteen Ephemera"
+msgstr ""
+
+#: twentyfourteen/inc/widgets.php:36
+msgid ""
+"Use this widget to list your recent Aside, Quote, Video, Audio, Image, "
+"Gallery, and Link posts."
+msgstr ""
+
+#: twentyfourteen/inc/widgets.php:75 twentyfourteen/taxonomy-post_format.php:33
+msgid "Images"
+msgstr ""
+
+#: twentyfourteen/inc/widgets.php:76
+msgid "More images"
+msgstr ""
+
+#: twentyfourteen/inc/widgets.php:79 twentyfourteen/taxonomy-post_format.php:36
+msgid "Videos"
+msgstr ""
+
+#: twentyfourteen/inc/widgets.php:80
+msgid "More videos"
+msgstr ""
+
+#: twentyfourteen/inc/widgets.php:83 twentyfourteen/taxonomy-post_format.php:39
+msgid "Audio"
+msgstr ""
+
+#: twentyfourteen/inc/widgets.php:84
+msgid "More audio"
+msgstr ""
+
+#: twentyfourteen/inc/widgets.php:87 twentyfourteen/taxonomy-post_format.php:42
+msgid "Quotes"
+msgstr ""
+
+#: twentyfourteen/inc/widgets.php:88
+msgid "More quotes"
+msgstr ""
+
+#: twentyfourteen/inc/widgets.php:91 twentyfourteen/taxonomy-post_format.php:45
+msgid "Links"
+msgstr ""
+
+#: twentyfourteen/inc/widgets.php:92
+msgid "More links"
+msgstr ""
+
+#: twentyfourteen/inc/widgets.php:95 twentyfourteen/taxonomy-post_format.php:48
+msgid "Galleries"
+msgstr ""
+
+#: twentyfourteen/inc/widgets.php:96
+msgid "More galleries"
+msgstr ""
+
+#: twentyfourteen/inc/widgets.php:100
+#: twentyfourteen/taxonomy-post_format.php:30
+msgid "Asides"
+msgstr ""
+
+#: twentyfourteen/inc/widgets.php:101
+msgid "More asides"
+msgstr ""
+
+#: twentyfourteen/inc/widgets.php:148 twentyfourteen/inc/widgets.php:193
+msgid "Continue reading <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: twentyfourteen/inc/widgets.php:227
+#, php-format
+msgid "%s <span class=\"meta-nav\">&rarr;</span>"
+msgstr ""
+
+#: twentyfourteen/inc/widgets.php:276
+msgid "Title:"
+msgstr ""
+
+#: twentyfourteen/inc/widgets.php:279
+msgid "Number of posts to show:"
+msgstr ""
+
+#: twentyfourteen/inc/widgets.php:282
+msgid "Post format to show:"
+msgstr ""
+
+#: twentyfourteen/tag.php:22
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: twentysixteen/functions.php:156
+msgid "Sidebar"
+msgstr ""
+
+#: twentysixteen/functions.php:166
+msgid "Content Bottom 1"
+msgstr ""
+
+#: twentysixteen/functions.php:168 twentysixteen/functions.php:178
+msgid "Appears at the bottom of the content on posts and pages."
+msgstr ""
+
+#: twentysixteen/functions.php:176
+msgid "Content Bottom 2"
+msgstr ""
+
+#: twentysixteen/header.php:47
+msgid "Menu"
+msgstr ""
+
+#: twentysixteen/image.php:84 twentysixteen/template-parts/content-page.php:37
+#: twentysixteen/template-parts/content-search.php:28
+#: twentysixteen/template-parts/content-search.php:43
+#: twentysixteen/template-parts/content-single.php:45
+#: twentysixteen/template-parts/content.php:49
+#, php-format
+msgid "Edit<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: twentysixteen/inc/back-compat.php:41 twentysixteen/inc/back-compat.php:53
+#: twentysixteen/inc/back-compat.php:68
+#, php-format
+msgid ""
+"Twenty Sixteen requires at least WordPress version 4.4. You are running "
+"version %s. Please upgrade and try again."
+msgstr ""
+
+#: twentysixteen/inc/customizer.php:145
+msgid "Page Background Color"
+msgstr ""
+
+#: twentysixteen/inc/customizer.php:160
+msgid "Link Color"
+msgstr ""
+
+#: twentysixteen/inc/customizer.php:172
+msgid "Main Text Color"
+msgstr ""
+
+#: twentysixteen/inc/customizer.php:184
+msgid "Secondary Text Color"
+msgstr ""
+
+#: twentysixteen/inc/customizer.php:273
+msgid "Gray"
+msgstr ""
+
+#: twentysixteen/inc/customizer.php:283
+msgid "Red"
+msgstr ""
+
+#: twentysixteen/inc/template-tags.php:184
+#: twentysixteen/template-parts/content.php:28
+#, php-format
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr ""
+
+#: twentysixteen/template-parts/biography.php:28
+msgid "Author:"
+msgstr ""
+
+#: unar/404.php:9
+msgid "Sorry, page not found."
+msgstr ""
+
+#: unar/404.php:10
+msgid "The page you are looking for is no longer available or has been moved."
+msgstr ""
+
+#: unar/404.php:16
+msgid "Search the site"
+msgstr ""
+
+#: unar/404.php:22
+msgid "Latest Article"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:393
+#: unar/class-tgm-plugin-activation.php:920
+#: unar/class-tgm-plugin-activation.php:2626
+#: unar/class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:394
+#: unar/class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:395
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:1027
+#: unar/class-tgm-plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:3602
+#: unar/class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:3602
+#: unar/class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+#: unar/class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: unar/class-tgm.php:64
+msgid "Unar Extra"
+msgstr ""
+
+#: unar/class-tgm.php:75
+msgid "Elementor"
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:13
+msgid "Unar Partner Block"
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:32
+msgid "Partner Setting"
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:43
+msgid "Partner Item #1"
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:46
+msgid "Partner Item #2"
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:52
+msgid "Partner Author"
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:55
+#: unar/extra/partner-block/partner-control.php:56
+#: unar/extra/testimonial-block/testimonial-control.php:63
+#: unar/extra/testimonial-block/testimonial-control.php:64
+msgid "Your client name."
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:60
+msgid "Partner Image"
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:69
+msgid "Partner Link"
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:72
+#: unar/extra/slider-block/slider-control.php:87
+msgid "http://your-link.com"
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:86
+#: unar/extra/testimonial-block/testimonial-control.php:96
+msgid "Carousel Setting"
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:93
+#: unar/extra/portfolio-block/portfolio-control.php:72
+#: unar/extra/slider-block/slider-control.php:130
+#: unar/extra/team-block/team-control.php:111
+#: unar/extra/testimonial-block/testimonial-control.php:103
+msgid "Column"
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:97
+#: unar/extra/slider-block/slider-control.php:134
+#: unar/extra/testimonial-block/testimonial-control.php:107
+msgid "auto"
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:98
+#: unar/extra/partner-block/partner-control.php:115
+#: unar/extra/portfolio-block/portfolio-control.php:76
+#: unar/extra/slider-block/slider-control.php:135
+#: unar/extra/slider-block/slider-control.php:152
+#: unar/extra/team-block/team-control.php:115
+#: unar/extra/testimonial-block/testimonial-control.php:108
+#: unar/extra/testimonial-block/testimonial-control.php:125
+msgid "1"
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:99
+#: unar/extra/partner-block/partner-control.php:116
+#: unar/extra/portfolio-block/portfolio-control.php:77
+#: unar/extra/slider-block/slider-control.php:136
+#: unar/extra/slider-block/slider-control.php:153
+#: unar/extra/team-block/team-control.php:116
+#: unar/extra/testimonial-block/testimonial-control.php:109
+#: unar/extra/testimonial-block/testimonial-control.php:126
+msgid "2"
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:100
+#: unar/extra/partner-block/partner-control.php:117
+#: unar/extra/portfolio-block/portfolio-control.php:78
+#: unar/extra/slider-block/slider-control.php:137
+#: unar/extra/slider-block/slider-control.php:154
+#: unar/extra/team-block/team-control.php:117
+#: unar/extra/testimonial-block/testimonial-control.php:110
+#: unar/extra/testimonial-block/testimonial-control.php:127
+msgid "3"
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:101
+#: unar/extra/partner-block/partner-control.php:118
+#: unar/extra/portfolio-block/portfolio-control.php:79
+#: unar/extra/slider-block/slider-control.php:138
+#: unar/extra/slider-block/slider-control.php:155
+#: unar/extra/team-block/team-control.php:118
+#: unar/extra/testimonial-block/testimonial-control.php:111
+#: unar/extra/testimonial-block/testimonial-control.php:128
+msgid "4"
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:102
+#: unar/extra/partner-block/partner-control.php:119
+#: unar/extra/slider-block/slider-control.php:139
+#: unar/extra/slider-block/slider-control.php:156
+#: unar/extra/testimonial-block/testimonial-control.php:112
+#: unar/extra/testimonial-block/testimonial-control.php:129
+msgid "5"
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:104
+#: unar/extra/partner-block/partner-control.php:121
+#: unar/extra/slider-block/slider-control.php:141
+#: unar/extra/slider-block/slider-control.php:158
+#: unar/extra/testimonial-block/testimonial-control.php:114
+#: unar/extra/testimonial-block/testimonial-control.php:131
+msgid ""
+"Number of slides per view (slides visible at the same time on slider&#39;s "
+"container)"
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:111
+#: unar/extra/slider-block/slider-control.php:148
+#: unar/extra/testimonial-block/testimonial-control.php:121
+msgid "Column (on mobile)"
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:128
+#: unar/extra/testimonial-block/testimonial-control.php:138
+msgid "Carousel Column Gap"
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:129
+#: unar/extra/slider-block/slider-control.php:166
+#: unar/extra/testimonial-block/testimonial-control.php:139
+msgid "Space between carousel items."
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:139
+#: unar/extra/slider-block/slider-control.php:198
+#: unar/extra/testimonial-block/testimonial-control.php:149
+msgid "Navigation"
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:143
+#: unar/extra/slider-block/slider-control.php:202
+#: unar/extra/testimonial-block/testimonial-control.php:153
+#: unar/inc/cmb2/includes/CMB2_Field.php:1179
+#: unar/inc/cmb2/includes/CMB2_Field.php:1183
+msgid "None"
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:144
+#: unar/extra/slider-block/slider-control.php:203
+#: unar/extra/testimonial-block/testimonial-control.php:154
+msgid "Arrows and Dots"
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:145
+#: unar/extra/slider-block/slider-control.php:204
+#: unar/extra/testimonial-block/testimonial-control.php:155
+msgid "Arrows"
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:146
+#: unar/extra/slider-block/slider-control.php:205
+#: unar/extra/testimonial-block/testimonial-control.php:156
+msgid "Dots"
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:148
+#: unar/extra/slider-block/slider-control.php:207
+#: unar/extra/testimonial-block/testimonial-control.php:158
+msgid "Select your navigation type."
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:155
+#: unar/extra/slider-block/slider-control.php:214
+#: unar/extra/testimonial-block/testimonial-control.php:165
+msgid "Navigation Arrows Color"
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:170
+#: unar/extra/slider-block/slider-control.php:229
+#: unar/extra/testimonial-block/testimonial-control.php:180
+msgid "Navigation Dots Color"
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:186
+#: unar/extra/slider-block/slider-control.php:245
+#: unar/extra/testimonial-block/testimonial-control.php:196
+msgid "Autoplay"
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:193
+#: unar/extra/slider-block/slider-control.php:252
+#: unar/extra/testimonial-block/testimonial-control.php:203
+msgid "Make your slider auto play."
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:200
+#: unar/extra/slider-block/slider-control.php:259
+#: unar/extra/testimonial-block/testimonial-control.php:210
+msgid "Next Slide On"
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:201
+#: unar/extra/slider-block/slider-control.php:260
+#: unar/extra/testimonial-block/testimonial-control.php:211
+msgid ""
+"Delay between transitions (in ms). If this parameter is not specified, auto "
+"play will be disabled."
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:213
+#: unar/extra/slider-block/slider-control.php:272
+#: unar/extra/testimonial-block/testimonial-control.php:223
+msgid "Slides Loop"
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:220
+#: unar/extra/slider-block/slider-control.php:279
+#: unar/extra/testimonial-block/testimonial-control.php:230
+msgid "Make your slider loop your items."
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:228
+#: unar/extra/slider-block/slider-control.php:287
+#: unar/extra/testimonial-block/testimonial-control.php:238
+msgid "Keyboard Control"
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:235
+#: unar/extra/slider-block/slider-control.php:294
+#: unar/extra/testimonial-block/testimonial-control.php:245
+msgid "Allow to navigate the slide using keyboard arrows."
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:242
+#: unar/extra/slider-block/slider-control.php:301
+#: unar/extra/testimonial-block/testimonial-control.php:252
+msgid "Centered Slides"
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:249
+#: unar/extra/slider-block/slider-control.php:308
+#: unar/extra/testimonial-block/testimonial-control.php:259
+msgid "Allow to make centered slides."
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:256
+#: unar/extra/slider-block/slider-control.php:315
+#: unar/extra/testimonial-block/testimonial-control.php:266
+msgid "Effect Type"
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:260
+#: unar/extra/slider-block/slider-control.php:319
+#: unar/extra/testimonial-block/testimonial-control.php:270
+msgid "Slide"
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:261
+#: unar/extra/slider-block/slider-control.php:320
+#: unar/extra/testimonial-block/testimonial-control.php:271
+msgid "Fade"
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:262
+#: unar/extra/slider-block/slider-control.php:321
+#: unar/extra/testimonial-block/testimonial-control.php:272
+msgid "Cube"
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:263
+#: unar/extra/slider-block/slider-control.php:322
+#: unar/extra/testimonial-block/testimonial-control.php:273
+msgid "Coverflow"
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:264
+#: unar/extra/slider-block/slider-control.php:323
+#: unar/extra/testimonial-block/testimonial-control.php:274
+msgid "Flip"
+msgstr ""
+
+#: unar/extra/partner-block/partner-control.php:266
+#: unar/extra/slider-block/slider-control.php:325
+#: unar/extra/testimonial-block/testimonial-control.php:276
+msgid "Select your slider slide effect."
+msgstr ""
+
+#: unar/extra/portfolio-block/portfolio-control.php:13
+msgid "Unar Portolio Block"
+msgstr ""
+
+#: unar/extra/portfolio-block/portfolio-control.php:32
+msgid "Portfolio Setting"
+msgstr ""
+
+#: unar/extra/portfolio-block/portfolio-control.php:39
+msgid "Post per Block"
+msgstr ""
+
+#: unar/extra/portfolio-block/portfolio-control.php:42
+#: unar/extra/portfolio-block/portfolio-control.php:53
+#: unar/extra/slider-block/slider-control.php:178
+#: unar/extra/slider-block/slider-control.php:189
+#: unar/extra/title-block/title-control.php:61
+#: unar/extra/title-block/title-control.php:90
+msgid "Enter some text"
+msgstr ""
+
+#: unar/extra/portfolio-block/portfolio-control.php:43
+msgid "This option allow you to set how much post display in this block."
+msgstr ""
+
+#: unar/extra/portfolio-block/portfolio-control.php:50
+msgid "Offset"
+msgstr ""
+
+#: unar/extra/portfolio-block/portfolio-control.php:54
+msgid ""
+"Set the first post to display (start from 0 as the latest post in each "
+"order)."
+msgstr ""
+
+#: unar/extra/portfolio-block/portfolio-control.php:61
+msgid "Order By"
+msgstr ""
+
+#: unar/extra/portfolio-block/portfolio-control.php:65
+msgid "Select post order by (default to latest post)."
+msgstr ""
+
+#: unar/extra/slider-block/slider-control.php:13
+msgid "Unar Slider Block"
+msgstr ""
+
+#: unar/extra/slider-block/slider-control.php:31
+msgid "Post Setting"
+msgstr ""
+
+#: unar/extra/slider-block/slider-control.php:42
+msgid "Slider Item #1"
+msgstr ""
+
+#: unar/extra/slider-block/slider-control.php:45
+msgid "Slider Item #2"
+msgstr ""
+
+#: unar/extra/slider-block/slider-control.php:51
+msgid "Slider Image"
+msgstr ""
+
+#: unar/extra/slider-block/slider-control.php:60
+msgid "Slider Title"
+msgstr ""
+
+#: unar/extra/slider-block/slider-control.php:63
+#: unar/extra/slider-block/slider-control.php:64
+msgid "Your slides name."
+msgstr ""
+
+#: unar/extra/slider-block/slider-control.php:68
+msgid "Slider Subtitle"
+msgstr ""
+
+#: unar/extra/slider-block/slider-control.php:71
+#: unar/extra/slider-block/slider-control.php:72
+msgid "Your slides description."
+msgstr ""
+
+#: unar/extra/slider-block/slider-control.php:76
+msgid "Slider Button"
+msgstr ""
+
+#: unar/extra/slider-block/slider-control.php:79
+#: unar/extra/slider-block/slider-control.php:80
+msgid "Your slides button text."
+msgstr ""
+
+#: unar/extra/slider-block/slider-control.php:84
+msgid "Slider Button Link"
+msgstr ""
+
+#: unar/extra/slider-block/slider-control.php:91
+msgid "Slider Style Type (image pattern)."
+msgstr ""
+
+#: unar/extra/slider-block/slider-control.php:96
+msgid "Dark Image (white text)"
+msgstr ""
+
+#: unar/extra/slider-block/slider-control.php:97
+msgid "Light Image (black text)"
+msgstr ""
+
+#: unar/extra/slider-block/slider-control.php:112
+msgid "Style Setting"
+msgstr ""
+
+#: unar/extra/slider-block/slider-control.php:123
+msgid "Slider Setting"
+msgstr ""
+
+#: unar/extra/slider-block/slider-control.php:165
+msgid "Slider Column Gap"
+msgstr ""
+
+#: unar/extra/slider-block/slider-control.php:175
+msgid "Width"
+msgstr ""
+
+#: unar/extra/slider-block/slider-control.php:179
+msgid "Crop your image width."
+msgstr ""
+
+#: unar/extra/slider-block/slider-control.php:186
+msgid "Height"
+msgstr ""
+
+#: unar/extra/slider-block/slider-control.php:190
+msgid "Crop your image height and also your post height."
+msgstr ""
+
+#: unar/extra/team-block/team-control.php:13
+msgid "Unar Team Block"
+msgstr ""
+
+#: unar/extra/team-block/team-control.php:32
+msgid "Team Setting"
+msgstr ""
+
+#: unar/extra/team-block/team-control.php:43
+msgid "Team Item #1"
+msgstr ""
+
+#: unar/extra/team-block/team-control.php:46
+msgid "Team Item #2"
+msgstr ""
+
+#: unar/extra/team-block/team-control.php:52
+msgid "Team Author"
+msgstr ""
+
+#: unar/extra/team-block/team-control.php:55
+#: unar/extra/team-block/team-control.php:56
+msgid "Your team name."
+msgstr ""
+
+#: unar/extra/team-block/team-control.php:60
+#: unar/extra/testimonial-block/testimonial-control.php:68
+msgid "Author Job"
+msgstr ""
+
+#: unar/extra/team-block/team-control.php:63
+#: unar/extra/team-block/team-control.php:64
+msgid "Your team job."
+msgstr ""
+
+#: unar/extra/team-block/team-control.php:68
+#: unar/extra/testimonial-block/testimonial-control.php:76
+msgid "Author Image"
+msgstr ""
+
+#: unar/extra/team-block/team-control.php:77
+msgid "Team Facebook"
+msgstr ""
+
+#: unar/extra/team-block/team-control.php:80
+msgid "http://facebook.com"
+msgstr ""
+
+#: unar/extra/team-block/team-control.php:84
+msgid "Team Twitter"
+msgstr ""
+
+#: unar/extra/team-block/team-control.php:87
+msgid "http://twitter.com"
+msgstr ""
+
+#: unar/extra/team-block/team-control.php:91
+msgid "Team Dribbble"
+msgstr ""
+
+#: unar/extra/team-block/team-control.php:94
+msgid "http://dribbble.com"
+msgstr ""
+
+#: unar/extra/team-block/team-control.php:98
+msgid "Team Instagram"
+msgstr ""
+
+#: unar/extra/team-block/team-control.php:101
+msgid "http://instagram.com"
+msgstr ""
+
+#: unar/extra/testimonial-block/testimonial-control.php:13
+msgid "Unar Testimonial Block"
+msgstr ""
+
+#: unar/extra/testimonial-block/testimonial-control.php:32
+msgid "Testimonial Setting"
+msgstr ""
+
+#: unar/extra/testimonial-block/testimonial-control.php:43
+msgid "Testimonial Item #1"
+msgstr ""
+
+#: unar/extra/testimonial-block/testimonial-control.php:46
+msgid "Testimonial Item #2"
+msgstr ""
+
+#: unar/extra/testimonial-block/testimonial-control.php:52
+msgid "Testimonial Text"
+msgstr ""
+
+#: unar/extra/testimonial-block/testimonial-control.php:55
+#: unar/extra/testimonial-block/testimonial-control.php:56
+msgid "Your client quotes."
+msgstr ""
+
+#: unar/extra/testimonial-block/testimonial-control.php:60
+msgid "Testimonial Author"
+msgstr ""
+
+#: unar/extra/testimonial-block/testimonial-control.php:71
+#: unar/extra/testimonial-block/testimonial-control.php:72
+msgid "Your client job."
+msgstr ""
+
+#: unar/extra/title-block/title-control.php:13
+msgid "Unar Head Title"
+msgstr ""
+
+#: unar/extra/title-block/title-control.php:31
+msgid "General Settings"
+msgstr ""
+
+#: unar/extra/title-block/title-control.php:38
+msgid "Title Size"
+msgstr ""
+
+#: unar/extra/title-block/title-control.php:41
+msgid "H1"
+msgstr ""
+
+#: unar/extra/title-block/title-control.php:42
+msgid "H2"
+msgstr ""
+
+#: unar/extra/title-block/title-control.php:43
+msgid "H3"
+msgstr ""
+
+#: unar/extra/title-block/title-control.php:44
+msgid "H4"
+msgstr ""
+
+#: unar/extra/title-block/title-control.php:45
+msgid "H5"
+msgstr ""
+
+#: unar/extra/title-block/title-control.php:46
+msgid "H6"
+msgstr ""
+
+#: unar/extra/title-block/title-control.php:47
+msgid "div"
+msgstr ""
+
+#: unar/extra/title-block/title-control.php:48
+msgid "span"
+msgstr ""
+
+#: unar/extra/title-block/title-control.php:49
+msgid "p"
+msgstr ""
+
+#: unar/extra/title-block/title-control.php:58
+msgid "Title Text"
+msgstr ""
+
+#: unar/extra/title-block/title-control.php:77
+msgid "Use Subtitle"
+msgstr ""
+
+#: unar/extra/title-block/title-control.php:87
+#: unar/extra/title-block/title-control.php:102
+msgid "Subtitle Text"
+msgstr ""
+
+#: unar/extra/title-block/title-control.php:113
+msgid "Alignment"
+msgstr ""
+
+#: unar/extra/title-block/title-control.php:117
+msgid "Left"
+msgstr ""
+
+#: unar/extra/title-block/title-control.php:121
+msgid "Center"
+msgstr ""
+
+#: unar/extra/title-block/title-control.php:125
+msgid "Right"
+msgstr ""
+
+#: unar/extra/title-block/title-control.php:129
+msgid "Justified"
+msgstr ""
+
+#: unar/extra/title-block/title-control.php:147
+msgid "Style 1 Settings"
+msgstr ""
+
+#: unar/extra/title-block/title-control.php:154
+msgid "Title Color"
+msgstr ""
+
+#: unar/extra/title-block/title-control.php:166
+msgid "Subtitle Color"
+msgstr ""
+
+#: unar/extra/title-block/title-control.php:181
+msgid "Separator Color"
+msgstr ""
+
+#: unar/footer.php:5
+#, php-format
+msgid "&copy; Copyright %d. All Rights Reserved."
+msgstr ""
+
+#: unar/functions.php:134
+msgid "Header Menu"
+msgstr ""
+
+#: unar/inc/cmb2-functions.php:101
+msgid "Pages Metabox"
+msgstr ""
+
+#: unar/inc/cmb2-functions.php:113
+msgid "Show/Hide Title"
+msgstr ""
+
+#: unar/inc/cmb2-functions.php:114
+msgid "Check the box to show title."
+msgstr ""
+
+#: unar/inc/cmb2-functions.php:118
+msgid "Show Title"
+msgstr ""
+
+#: unar/inc/cmb2-functions.php:119
+msgid "Hide Title"
+msgstr ""
+
+#: unar/inc/cmb2-functions.php:126
+msgid "Portfolio Metabox"
+msgstr ""
+
+#: unar/inc/cmb2-functions.php:130
+msgid "Hero Image"
+msgstr ""
+
+#: unar/inc/cmb2-functions.php:131 unar/inc/cmb2/example-functions.php:393
+msgid "Upload an image or enter a URL."
+msgstr ""
+
+#: unar/inc/cmb2-functions.php:136
+msgid "Portfolio Author"
+msgstr ""
+
+#: unar/inc/cmb2-functions.php:137
+msgid "Add Author here"
+msgstr ""
+
+#: unar/inc/cmb2-functions.php:142
+msgid "Portfolio Date"
+msgstr ""
+
+#: unar/inc/cmb2-functions.php:143
+msgid "Insert Date here"
+msgstr ""
+
+#: unar/inc/cmb2-functions.php:148
+msgid "Portfolio Client"
+msgstr ""
+
+#: unar/inc/cmb2-functions.php:149
+msgid "Add your Client name here"
+msgstr ""
+
+#: unar/inc/cmb2-functions.php:154
+msgid "Portfolio Website"
+msgstr ""
+
+#: unar/inc/cmb2-functions.php:155
+msgid "Insert you Project Url here"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:117
+msgid "Test Metabox"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:130
+#: unar/inc/cmb2/example-functions.php:452
+msgid "Test Text"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:131
+#: unar/inc/cmb2/example-functions.php:144
+#: unar/inc/cmb2/example-functions.php:157
+#: unar/inc/cmb2/example-functions.php:164
+#: unar/inc/cmb2/example-functions.php:177
+#: unar/inc/cmb2/example-functions.php:185
+#: unar/inc/cmb2/example-functions.php:194
+#: unar/inc/cmb2/example-functions.php:202
+#: unar/inc/cmb2/example-functions.php:217
+#: unar/inc/cmb2/example-functions.php:225
+#: unar/inc/cmb2/example-functions.php:233
+#: unar/inc/cmb2/example-functions.php:250
+#: unar/inc/cmb2/example-functions.php:259
+#: unar/inc/cmb2/example-functions.php:272
+#: unar/inc/cmb2/example-functions.php:279
+#: unar/inc/cmb2/example-functions.php:286
+#: unar/inc/cmb2/example-functions.php:300
+#: unar/inc/cmb2/example-functions.php:313
+#: unar/inc/cmb2/example-functions.php:326
+#: unar/inc/cmb2/example-functions.php:338
+#: unar/inc/cmb2/example-functions.php:347
+#: unar/inc/cmb2/example-functions.php:355
+#: unar/inc/cmb2/example-functions.php:364
+#: unar/inc/cmb2/example-functions.php:371
+#: unar/inc/cmb2/example-functions.php:385
+#: unar/inc/cmb2/example-functions.php:453
+#: unar/inc/cmb2/example-functions.php:544
+#: unar/inc/cmb2/example-functions.php:552
+#: unar/inc/cmb2/example-functions.php:559
+#: unar/inc/cmb2/example-functions.php:566
+#: unar/inc/cmb2/example-functions.php:573
+#: unar/inc/cmb2/example-functions.php:580
+#: unar/inc/cmb2/example-functions.php:587
+#: unar/inc/cmb2/example-functions.php:614
+#: unar/inc/cmb2/example-functions.php:622
+#: unar/inc/cmb2/example-functions.php:629
+#: unar/inc/cmb2/example-functions.php:666
+msgid "field description (optional)"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:143
+msgid "Test Text Small"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:156
+msgid "Test Text Medium"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:163
+msgid "Read-only Disabled Field"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:176
+msgid "Custom Rendered Field"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:184
+msgid "Website URL"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:193
+msgid "Test Text Email"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:201
+msgid "Test Time"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:209
+#: unar/inc/cmb2/example-functions.php:210
+msgid "Time zone"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:216
+msgid "Test Date Picker"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:224
+msgid "Test Date Picker (UNIX timestamp)"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:232
+msgid "Test Date/Time Picker Combo (UNIX timestamp)"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:249
+msgid "Test Money"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:258
+msgid "Test Color Picker"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:271
+msgid "Test Text Area"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:278
+msgid "Test Text Area Small"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:285
+msgid "Test Text Area for Code"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:292
+msgid "Test Title Weeeee"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:293
+msgid "This is a title description"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:299
+msgid "Test Select"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:305
+#: unar/inc/cmb2/example-functions.php:318
+#: unar/inc/cmb2/example-functions.php:330
+msgid "Option One"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:306
+#: unar/inc/cmb2/example-functions.php:319
+#: unar/inc/cmb2/example-functions.php:331
+msgid "Option Two"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:307
+#: unar/inc/cmb2/example-functions.php:320
+#: unar/inc/cmb2/example-functions.php:332
+msgid "Option Three"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:312
+msgid "Test Radio inline"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:325
+msgid "Test Radio"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:337
+msgid "Test Taxonomy Radio"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:346
+msgid "Test Taxonomy Select"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:354
+msgid "Test Taxonomy Multi Checkbox"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:363
+msgid "Test Checkbox"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:370
+msgid "Test Multi Checkbox"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:376
+msgid "Check One"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:377
+msgid "Check Two"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:378
+msgid "Check Three"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:384
+msgid "Test wysiwyg"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:392
+msgid "Test Image"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:399
+msgid "Multiple Files"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:400
+msgid "Upload or add multiple images/attachments."
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:407
+msgid "oEmbed"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:410
+#, php-format
+msgid ""
+"Enter a youtube, twitter, or instagram URL. Supports services listed at %s."
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:443
+msgid "About Page Metabox"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:472
+msgid "Repeating Field Group"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:480
+msgid "Generates reusable form entries"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:482
+msgid "Entry {#}"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:483
+msgid "Add Another Entry"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:484
+msgid "Remove Entry"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:497
+msgid "Entry Title"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:504
+msgid "Description"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:505
+msgid "Write a short description for this entry"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:511
+msgid "Entry Image"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:517
+msgid "Image Caption"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:536
+msgid "User Profile Metabox"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:543
+#: unar/inc/cmb2/example-functions.php:613
+msgid "Extra Info"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:551
+msgid "Avatar"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:558
+msgid "Facebook URL"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:565
+msgid "Twitter URL"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:572
+msgid "Google+ URL"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:579
+msgid "Linkedin URL"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:586
+msgid "User Field"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:606
+msgid "Category Metabox"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:621
+msgid "Term Image"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:628
+msgid "Arbitrary Term Field"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:650
+msgid "Theme Options Metabox"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:665
+msgid "Site Background Color"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:701
+msgid "REST Test Box"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:710
+msgid "REST Test Text"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:711
+msgid "Will show in the REST API for this box and for pages."
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:717
+msgid "REST Editable Test Text"
+msgstr ""
+
+#: unar/inc/cmb2/example-functions.php:718
+msgid "Will show in REST API \"editable\" contexts only (`POST` requests)."
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2.php:143
+msgid "Metabox configuration is required to have an ID parameter."
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_Ajax.php:75
+msgid "Please Try Again"
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_Ajax.php:179
+msgid "Remove Embed"
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_Ajax.php:187
+#: unar/inc/cmb2/includes/helper-functions.php:105
+#, php-format
+msgid "No oEmbed Results Found for %1$s. View more info at %2$s."
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_Base.php:406
+#, php-format
+msgid ""
+"The \"%1$s\" field parameter has been deprecated in favor of the \"%1$s\" "
+"parameter."
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_Base.php:410
+#, php-format
+msgid ""
+"Using the \"%1$s\" field parameter as a callback has been deprecated in "
+"favor of the \"%1$s\" parameter."
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_Base.php:440
+#, php-format
+msgid ""
+"%1$s was called with a parameter that is <strong>deprecated</strong> since "
+"version %2$s! %3$s"
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_Base.php:442
+#, php-format
+msgid ""
+"%1$s was called with a parameter that is <strong>deprecated</strong> since "
+"version %2$s with no alternative available."
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_Base.php:475
+#: unar/inc/cmb2/includes/types/CMB2_Type_Base.php:149
+#, php-format
+msgid "Invalid %1$s property: %2$s"
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_Base.php:490
+#: unar/inc/cmb2/includes/types/CMB2_Type_Base.php:133
+#, php-format
+msgid "Invalid %1$s method: %2$s"
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_Field.php:1156
+msgid "Add Group"
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_Field.php:1157
+msgid "Remove Group"
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_Field.php:1244
+msgid "Sorry, this field does not have a cmb_id specified."
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_Field_Display.php:428
+#: unar/inc/cmb2/includes/CMB2_JS.php:165
+#: unar/inc/cmb2/includes/types/CMB2_Type_File_Base.php:78
+msgid "File:"
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_JS.php:105
+#: unar/inc/cmb2/includes/CMB2_JS.php:145
+msgid "Clear"
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_JS.php:107
+msgid "Select Color"
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_JS.php:108
+msgid "Current Color"
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_JS.php:136
+msgid "Sunday, Monday, Tuesday, Wednesday, Thursday, Friday, Saturday"
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_JS.php:137
+msgid "Su, Mo, Tu, We, Th, Fr, Sa"
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_JS.php:138
+msgid "Sun, Mon, Tue, Wed, Thu, Fri, Sat"
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_JS.php:139
+msgid ""
+"January, February, March, April, May, June, July, August, September, "
+"October, November, December"
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_JS.php:140
+msgid "Jan, Feb, Mar, Apr, May, Jun, Jul, Aug, Sep, Oct, Nov, Dec"
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_JS.php:142
+msgid "Prev"
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_JS.php:143
+msgid "Today"
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_JS.php:144
+#: unar/inc/cmb2/includes/CMB2_JS.php:154
+msgid "Done"
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_JS.php:148
+msgid "Choose Time"
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_JS.php:149
+msgid "Time"
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_JS.php:150
+msgid "Hour"
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_JS.php:151
+msgid "Minute"
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_JS.php:152
+msgid "Second"
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_JS.php:153
+msgid "Now"
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_JS.php:161
+msgid "Use this file"
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_JS.php:162
+msgid "Use these files"
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_JS.php:163
+#: unar/inc/cmb2/includes/types/CMB2_Type_File_Base.php:63
+msgid "Remove Image"
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_JS.php:164
+#: unar/inc/cmb2/includes/CMB2_Types.php:409
+#: unar/inc/cmb2/includes/types/CMB2_Type_File_Base.php:83
+msgid "Remove"
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_JS.php:166
+#: unar/inc/cmb2/includes/types/CMB2_Type_File_Base.php:81
+msgid "Download"
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_JS.php:167
+msgid "Select / Deselect All"
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_Types.php:228
+msgid "Custom CMB2 field type classes must extend CMB2_Type_Base."
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_Types.php:344
+msgid "Add Row"
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_hookup.php:153
+msgid ""
+"Term Metadata is a WordPress 4.4+ feature. Please upgrade your WordPress "
+"install."
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_hookup.php:157
+msgid "Term metaboxes configuration requires a \"taxonomies\" parameter."
+msgstr ""
+
+#: unar/inc/cmb2/includes/CMB2_hookup.php:404
+#, php-format
+msgid "Toggle panel: %s"
+msgstr ""
+
+#: unar/inc/cmb2/includes/helper-functions.php:303
+msgid "Save"
+msgstr ""
+
+#: unar/inc/cmb2/includes/rest-api/CMB2_REST_Controller.php:257
+msgid "This box does not have read permissions."
+msgstr ""
+
+#: unar/inc/cmb2/includes/rest-api/CMB2_REST_Controller.php:275
+msgid "This box does not have write permissions."
+msgstr ""
+
+#: unar/inc/cmb2/includes/rest-api/CMB2_REST_Controller.php:296
+msgid ""
+"No box found by that id. A box needs to be registered with the \"show_in_rest"
+"\" parameter configured."
+msgstr ""
+
+#: unar/inc/cmb2/includes/rest-api/CMB2_REST_Controller.php:372
+msgid "A human-readable description of the object."
+msgstr ""
+
+#: unar/inc/cmb2/includes/rest-api/CMB2_REST_Controller.php:379
+msgid "The id for the object."
+msgstr ""
+
+#: unar/inc/cmb2/includes/rest-api/CMB2_REST_Controller.php:386
+msgid "The title for the object."
+msgstr ""
+
+#: unar/inc/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:51
+msgid "Includes the registered fields for the box in the response."
+msgstr ""
+
+#: unar/inc/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:72
+msgid ""
+"Includes the fully rendered attributes, 'form_open', 'form_close', as well "
+"as the enqueued 'js_dependencies' script handles, and 'css_dependencies' "
+"stylesheet handles."
+msgstr ""
+
+#: unar/inc/cmb2/includes/rest-api/CMB2_REST_Controller_Boxes.php:122
+msgid "No boxes found."
+msgstr ""
+
+#: unar/inc/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:27
+msgid ""
+"Includes the box object which the fields are registered to in the response."
+msgstr ""
+
+#: unar/inc/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:30
+msgid ""
+"When the '_rendered' argument is passed, the renderable field attributes "
+"will be returned fully rendered. By default, the names of the callback "
+"handers for the renderable attributes will be returned."
+msgstr ""
+
+#: unar/inc/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:33
+#: unar/inc/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:36
+msgid ""
+"To view or modify the field's value, the 'object_id' and 'object_type' "
+"arguments are required."
+msgstr ""
+
+#: unar/inc/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:236
+msgid ""
+"CMB2 Field value cannot be updated without the value parameter specified."
+msgstr ""
+
+#: unar/inc/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:295
+msgid ""
+"CMB2 Field value cannot be modified without the object_id and object_type "
+"parameters specified."
+msgstr ""
+
+#: unar/inc/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:308
+#: unar/inc/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:335
+msgid "No field found by that id."
+msgstr ""
+
+#: unar/inc/cmb2/includes/rest-api/CMB2_REST_Controller_Fields.php:407
+#, php-format
+msgid "Value Error for %s"
+msgstr ""
+
+#: unar/inc/cmb2/includes/shim/WP_REST_Controller.php:24
+msgid "The register_routes() method must be overriden"
+msgstr ""
+
+#: unar/inc/cmb2/includes/shim/WP_REST_Controller.php:34
+#: unar/inc/cmb2/includes/shim/WP_REST_Controller.php:44
+#: unar/inc/cmb2/includes/shim/WP_REST_Controller.php:54
+#: unar/inc/cmb2/includes/shim/WP_REST_Controller.php:64
+#: unar/inc/cmb2/includes/shim/WP_REST_Controller.php:74
+#: unar/inc/cmb2/includes/shim/WP_REST_Controller.php:84
+#: unar/inc/cmb2/includes/shim/WP_REST_Controller.php:94
+#: unar/inc/cmb2/includes/shim/WP_REST_Controller.php:104
+#: unar/inc/cmb2/includes/shim/WP_REST_Controller.php:114
+#: unar/inc/cmb2/includes/shim/WP_REST_Controller.php:124
+#: unar/inc/cmb2/includes/shim/WP_REST_Controller.php:134
+#: unar/inc/cmb2/includes/shim/WP_REST_Controller.php:145
+#, php-format
+msgid "Method '%s' not implemented. Must be over-ridden in subclass."
+msgstr ""
+
+#: unar/inc/cmb2/includes/shim/WP_REST_Controller.php:248
+msgid "Current page of the collection."
+msgstr ""
+
+#: unar/inc/cmb2/includes/shim/WP_REST_Controller.php:256
+msgid "Maximum number of items to be returned in result set."
+msgstr ""
+
+#: unar/inc/cmb2/includes/shim/WP_REST_Controller.php:265
+msgid "Limit results to those matching a string."
+msgstr ""
+
+#: unar/inc/cmb2/includes/shim/WP_REST_Controller.php:283
+msgid ""
+"Scope under which the request is made; determines fields present in response."
+msgstr ""
+
+#: unar/inc/cmb2/includes/types/CMB2_Type_File.php:40
+msgid "Add or Upload File"
+msgstr ""
+
+#: unar/inc/cmb2/includes/types/CMB2_Type_File_List.php:41
+msgid "Add or Upload Files"
+msgstr ""
+
+#: unar/inc/cmb2/includes/types/CMB2_Type_Taxonomy_Multicheck.php:28
+#: unar/inc/cmb2/includes/types/CMB2_Type_Taxonomy_Radio.php:25
+msgid "No terms"
+msgstr ""
+
+#: unar/inc/format/content-no-result.php:12
+msgid "It looks like nothing was found at this location."
+msgstr ""
+
+#: unar/inc/format/content-portfolio.php:10
+msgid "Project Description"
+msgstr ""
+
+#: unar/inc/format/content-portfolio.php:22
+msgid "Project Detail"
+msgstr ""
+
+#: unar/inc/format/content-portfolio.php:29
+msgid "Author :"
+msgstr ""
+
+#: unar/inc/format/content-portfolio.php:36
+msgid "Date :"
+msgstr ""
+
+#: unar/inc/format/content-portfolio.php:41
+msgid "Category :"
+msgstr ""
+
+#: unar/inc/format/content-portfolio.php:48
+msgid "Client :"
+msgstr ""
+
+#: unar/inc/format/content-portfolio.php:55
+msgid "Website :"
+msgstr ""
+
+#: unar/inc/format/content.php:56 unar/inc/format/content.php:88
+#: unar/inc/format/loop.php:57
+msgid "By "
+msgstr ""
+
+#: unar/inc/format/content.php:62 unar/inc/format/loop.php:63
+msgid "/ In "
+msgstr ""
+
+#: unar/inc/format/content.php:62 unar/inc/format/loop.php:63
+msgid " / "
+msgstr ""
+
+#: unar/inc/format/content.php:64 unar/inc/format/loop.php:65
+msgid "Comments "
+msgstr ""
+
+#: unar/inc/format/content.php:70
+msgid "Tags: "
+msgstr ""
+
+#: unar/inc/format/content.php:81
+msgid "About the Author"
+msgstr ""
+
+#: unar/inc/format/loop.php:68
+msgid "Read More "
+msgstr ""
+
+#: unar/inc/function/comment.php:20
+#, php-format
+msgid "%s"
+msgstr ""
+
+#: unar/inc/function/comment.php:22
+msgid " - Posted "
+msgstr ""
+
+#: unar/inc/function/comment.php:28
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: unar/inc/function/navigation.php:46
+msgid "OLDER POST"
+msgstr ""
+
+#: unar/inc/function/navigation.php:50
+msgid "NEWER POST"
+msgstr ""
+
+#: unar/inc/panels/extend-options.php:23
+msgid "Need More Features?"
+msgstr ""
+
+#: unar/inc/panels/extend-options.php:32
+msgid "Need more features and options?"
+msgstr ""
+
+#: unar/inc/panels/extend-options.php:33
+msgid ""
+"Check out the Premium version of this theme which comes with additional "
+"features and advanced customization options for your website."
+msgstr ""
+
+#: unar/inc/panels/extend-options.php:34
+msgid "Learn more about the Premium version"
+msgstr ""
+
+#: unar/inc/panels/extend-options.php:53
+msgid "Read More"
+msgstr ""
+
+#: unar/inc/panels/general-options.php:12
+msgid "Background Color"
+msgstr ""
+
+#: unar/inc/panels/general-options.php:26
+msgid ""
+"The site logo is used as a graphical representation of your company name. "
+"Recommended size: 105 (width) x 75 (height) pixels(px)."
+msgstr ""
+
+#: unar/inc/panels/general-options.php:27
+msgid "Site logo"
+msgstr ""
+
+#: unar/inc/panels/general-options.php:50
+msgid "General Options"
+msgstr ""
+
+#: unar/inc/panels/general-options.php:51
+msgid ""
+"You can change the site layout in this area as well as your contact details "
+"(the ones displayed in the header & footer) "
+msgstr ""
+
+#: unar/inc/panels/general-options.php:59
+msgid "Logo"
+msgstr ""
+
+#: unar/inc/panels/general-options.php:69
+msgid "Footer Section"
+msgstr ""
+
+#: unar/inc/panels/general-options.php:70
+msgid "Change the footer copyright and widgets area column."
+msgstr ""
+
+#: unar/inc/panels/general-options.php:78
+msgid "&copy; Copyright 2016. All Rights Reserved."
+msgstr ""
+
+#: unar/inc/panels/general-options.php:83
+msgid "Footer Copyright"
+msgstr ""
+
+#: unar/inc/panels/general-options.php:84
+msgid "Use this to display your company copyright message."
+msgstr ""
+
+#: unar/inc/panels/general-options.php:95
+msgid "Footer Widget Column"
+msgstr ""
+
+#: unar/inc/panels/general-options.php:99
+msgid "One Column"
+msgstr ""
+
+#: unar/inc/panels/general-options.php:100
+msgid "Two Column"
+msgstr ""
+
+#: unar/inc/panels/general-options.php:101
+msgid "Theree Column"
+msgstr ""
+
+#: unar/inc/panels/general-options.php:102
+msgid "Four Column"
+msgstr ""
+
+#: unar/searchform.php:2
+msgid "Search this site"
+msgstr ""
+
+#: unar/single-unar-portfolio.php:8
+msgid "image-hero"
+msgstr ""

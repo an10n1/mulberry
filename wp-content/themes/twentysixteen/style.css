@@ -1,0 +1,19 @@
+.static-nav {
+  height: 50px; }
+  .static-nav .float-left {
+    float: left; }
+  .static-nav .float-right {
+    float: right; }
+  .static-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: table;
+    table-layout: fixed; }
+    .static-nav ul li {
+      display: table-cell; }
+
+#site-navigation {
+  margin-bottom: 0; }
+
+/*# sourceMappingURL=style.css.map */

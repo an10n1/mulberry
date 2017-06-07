@@ -1,0 +1,871 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Unar v3.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2017-03-29 14:09+0300\n"
+"Last-Translator: admin\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;\n"
+"X-Generator: Poedit 1.8.2\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Textdomain-Support: yes\n"
+"Language: ru\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ unar
+#: 404.php:9
+msgid "Sorry, page not found."
+msgstr "К сожалению, страница не найдена"
+
+# @ unar
+#: 404.php:10
+msgid "The page you are looking for is no longer available or has been moved."
+msgstr "Страница, которую вы ищете, больше недоступна"
+
+# @ unar
+#: 404.php:16
+msgid "Search the site"
+msgstr "Поиск по сайту"
+
+# @ unar
+#: 404.php:22
+msgid "Latest Article"
+msgstr "Последние статьи"
+
+# @ unar
+#: class-tgm-plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr "Установите необходимые плагины"
+
+# @ unar
+#: class-tgm-plugin-activation.php:335
+msgid "Install Plugins"
+msgstr ""
+
+# @ unar
+#. translators: %s: plugin name.
+#: class-tgm-plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+# @ unar
+#. translators: %s: plugin name.
+#: class-tgm-plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+# @ tgmpa
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ tgmpa
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ tgmpa
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:355
+#, php-format
+msgid "The following plugin needs to be updated to its latest version to ensure maximum compatibility with this theme: %1$s."
+msgid_plural "The following plugins need to be updated to their latest version to ensure maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ tgmpa
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ tgmpa
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ tgmpa
+#. translators: 1: plugin name(s).
+#: class-tgm-plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ tgmpa
+#: class-tgm-plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:393 class-tgm-plugin-activation.php:920
+#: class-tgm-plugin-activation.php:2626 class-tgm-plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:394 class-tgm-plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr ""
+
+# @ unar
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr ""
+
+# @ unar
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:399
+#, php-format
+msgid "Plugin not activated. A higher version of %s is needed for this theme. Please update the plugin."
+msgstr ""
+
+# @ unar
+#. translators: 1: dashboard link.
+#: class-tgm-plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:403
+msgid "There are one or more required or recommended plugins to install, update or activate."
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:608
+msgid "Update Required"
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:1027
+msgid "The remote plugin package does not contain a folder with the desired slug and renaming did not work."
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:1027 class-tgm-plugin-activation.php:1030
+msgid "Please contact the plugin provider and ask them to package their plugin according to the WordPress guidelines."
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:1030
+msgid "The remote plugin package consists of more than one file, but the files are not packaged in a folder."
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:1214 class-tgm-plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr ""
+
+# @ unar
+#. translators: %s: version number
+#: class-tgm-plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:2366
+msgid "Required"
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:2369
+msgid "Recommended"
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:2388
+msgid "External Source"
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:2408
+msgid "Not Installed"
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:2414
+msgid "Active"
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:2423
+msgid "Requires Update"
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:2426
+msgid "Update recommended"
+msgstr ""
+
+# @ unar
+#. translators: 1: install status, 2: update status
+#: class-tgm-plugin-activation.php:2435
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr ""
+
+# @ unar
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2481
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ unar
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2485
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ unar
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2489
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ unar
+#. translators: 1: number of plugins.
+#: class-tgm-plugin-activation.php:2493
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:2583
+msgid "Installed version:"
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:2603
+msgid "Available version:"
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:2640
+msgid "Plugin"
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:2641
+msgid "Source"
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:2642
+msgid "Type"
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:2646
+msgid "Version"
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:2647
+msgid "Status"
+msgstr ""
+
+# @ unar
+#. translators: %2$s: plugin name in screen reader markup
+#: class-tgm-plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr ""
+
+# @ unar
+#. translators: %2$s: plugin name in screen reader markup
+#: class-tgm-plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr ""
+
+# @ unar
+#. translators: %2$s: plugin name in screen reader markup
+#: class-tgm-plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:2810
+msgid "Install"
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:2816
+msgid "Update"
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:2819
+msgid "Activate"
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr ""
+
+# @ unar
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: class-tgm-plugin-activation.php:3045 class-tgm-plugin-activation.php:395
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr ""
+
+# @ unar
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: class-tgm-plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+# @ unar
+#. translators: 1: plugin name, 2: error message.
+#: class-tgm-plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+# @ unar
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:3600
+msgid "The installation and activation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+# @ unar
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:3602 class-tgm-plugin-activation.php:3610
+msgid "Show Details"
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:3602 class-tgm-plugin-activation.php:3610
+msgid "Hide Details"
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr ""
+
+# @ unar
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: class-tgm-plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:3608
+msgid "The installation process is starting. This process may take a while on some hosts, so please be patient."
+msgstr ""
+
+# @ unar
+#. translators: 1: plugin name.
+#: class-tgm-plugin-activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+# @ unar
+#: class-tgm-plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr ""
+
+# @ unar
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: class-tgm-plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+# @ unar
+#: class-tgm.php:64
+msgid "Unar Extra"
+msgstr ""
+
+# @ unar
+#: class-tgm.php:75
+msgid "Elementor"
+msgstr ""
+
+# @ unar
+#. translators: %s: post title
+#: comments.php:16
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "Один комментарий на &ldquo;%s&rdquo;"
+
+# @ unar
+#. translators: 1: number of comments, 2: post title
+#: comments.php:21
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s комментарий на &ldquo;%2$s&rdquo;"
+msgstr[1] "Комментарев: %1$s на &ldquo;%2$s&rdquo;"
+msgstr[2] ""
+
+# @ unar
+#: comments.php:53
+msgid "Comments are closed."
+msgstr "Комментарии закрыты."
+
+# @ unar
+#: footer.php:2
+msgid "Y"
+msgstr ""
+
+# @ unar
+#: footer.php:5
+#, php-format
+msgid "&copy; Copyright %d. All Rights Reserved."
+msgstr "&copy; %d. Все права защищены."
+
+# @ unar
+#: functions.php:93
+msgctxt "Montserrat font: on or off"
+msgid "on"
+msgstr ""
+
+# @ unar
+#: functions.php:99
+msgctxt "PT Sans font: on or off"
+msgid "on"
+msgstr ""
+
+# @ unar
+#: functions.php:135
+msgid "Header Menu"
+msgstr "Меню в шапке"
+
+# @ unar
+#: functions.php:169
+msgid "Primary Sidebar"
+msgstr "Основной сайдбар"
+
+# @ unar
+#: inc/format/content-no-result.php:8
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "Упс! Страница не найдена."
+
+# @ unar
+#: inc/format/content-no-result.php:12
+msgid "It looks like nothing was found at this location."
+msgstr "Похоже, что ничего не было найдено!"
+
+# @ unar
+#: inc/format/content-portfolio.php:5
+msgid "Project Description"
+msgstr "Описание проекта"
+
+# @ unar
+#: inc/format/content-portfolio.php:17
+msgid "Project Detail"
+msgstr "Подробная информация о проекте"
+
+# @ unar
+#: inc/format/content-portfolio.php:25
+msgid "Author :"
+msgstr "Автор:"
+
+# @ unar
+#: inc/format/content-portfolio.php:32
+msgid "Date :"
+msgstr "Дата:"
+
+# @ unar
+#: inc/format/content-portfolio.php:37
+msgid "Category :"
+msgstr "Категория:"
+
+# @ unar
+#: inc/format/content-portfolio.php:44
+msgid "Client :"
+msgstr "Заказчик:"
+
+# @ unar
+#: inc/format/content-portfolio.php:51
+msgid "Website :"
+msgstr "Сайт :"
+
+# @ unar
+#: inc/format/content.php:56 inc/format/content.php:88 inc/format/loop.php:57
+msgid "By "
+msgstr "Автор "
+
+# @ unar
+#: inc/format/content.php:62 inc/format/loop.php:63
+msgid "/ In "
+msgstr "/  "
+
+# @ unar
+#: inc/format/content.php:62 inc/format/loop.php:63
+msgid " / "
+msgstr ""
+
+# @ unar
+#: inc/format/content.php:64 inc/format/loop.php:65
+msgid "Comments "
+msgstr "Комментариев:"
+
+# @ unar
+#: inc/format/content.php:70
+msgid "Tags: "
+msgstr "Метки:"
+
+# @ unar
+#: inc/format/content.php:81
+msgid "About the Author"
+msgstr "Об авторе"
+
+# @ unar
+#: inc/format/loop.php:68
+msgid "Read More "
+msgstr "Подробнее"
+
+# @ unar
+#: inc/function/comment.php:20
+#, php-format
+msgid "%s"
+msgstr ""
+
+# @ unar
+#: inc/function/comment.php:22
+msgid " - Posted "
+msgstr " - опубликовано "
+
+# @ unar
+#: inc/function/comment.php:22
+#, php-format
+msgctxt "1: date"
+msgid "%1$s"
+msgstr ""
+
+# @ unar
+#: inc/function/comment.php:28
+msgid "Your comment is awaiting moderation."
+msgstr "Ваш комментарий ожидает модерации."
+
+# @ unar
+#: inc/function/comment.php:33
+msgid "Edit"
+msgstr "Изменить"
+
+# @ unar
+#: inc/function/navigation.php:46
+msgid "OLDER POST"
+msgstr "Предыдущие записи"
+
+# @ unar
+#: inc/function/navigation.php:50
+msgid "NEWER POST"
+msgstr "Новые записи"
+
+# @ unar
+#: inc/panels/extend-options.php:23
+msgid "Need More Features?"
+msgstr "Нужно больше возможностей?"
+
+# @ unar
+#: inc/panels/extend-options.php:32
+msgid "Need more features and options?"
+msgstr ""
+
+# @ unar
+#: inc/panels/extend-options.php:33
+msgid "Check out the Premium version of this theme which comes with additional features and advanced customization options for your website."
+msgstr ""
+
+# @ unar
+#: inc/panels/extend-options.php:34
+msgid "Learn more about the Premium version"
+msgstr ""
+
+# @ unar
+#: inc/panels/extend-options.php:53
+msgid "Read More"
+msgstr "Подробнее"
+
+# @ unar
+#: inc/panels/general-options.php:12
+msgid "Background Color"
+msgstr "Цвет фона"
+
+# @ unar
+#: inc/panels/general-options.php:26
+msgid "The site logo is used as a graphical representation of your company name. Recommended size: 105 (width) x 75 (height) pixels(px)."
+msgstr "Логотип сайта используется как графическое представление название вашей компании. Рекомендуемый размер: 105 pixels(px) (ширина) x 75 (высота)."
+
+# @ unar
+#: inc/panels/general-options.php:27
+msgid "Site logo"
+msgstr "Логотип сайта"
+
+# @ unar
+#: inc/panels/general-options.php:50
+msgid "General Options"
+msgstr "Основные настройки"
+
+# @ unar
+#: inc/panels/general-options.php:51
+msgid "You can change the site layout in this area as well as your contact details (the ones displayed in the header & footer) "
+msgstr "Вы можете изменить макет сайта в этой области, а также ваши контактные данные (отображаемые в заголовке и футере)"
+
+# @ unar
+#: inc/panels/general-options.php:59
+msgid "Logo"
+msgstr "Логотип"
+
+# @ unar
+#: inc/panels/general-options.php:69
+msgid "Footer Section"
+msgstr "Секция подвала"
+
+# @ unar
+#: inc/panels/general-options.php:70
+msgid "Change the footer copyright and widgets area column."
+msgstr "Изменить текст подвала."
+
+# @ unar
+#: inc/panels/general-options.php:78
+msgid "&copy; Copyright 2016. All Rights Reserved."
+msgstr "&copy; %d. Все права защищены."
+
+# @ unar
+#: inc/panels/general-options.php:83
+msgid "Footer Copyright"
+msgstr "Копирайт в подвале"
+
+# @ unar
+#: inc/panels/general-options.php:84
+msgid "Use this to display your company copyright message."
+msgstr "Используйте это для отображения вашей компании сообщение об авторских правах."
+
+# @ unar
+#: inc/panels/general-options.php:95
+msgid "Footer Widget Column"
+msgstr "Колнки виджетов подвала"
+
+# @ unar
+#: inc/panels/general-options.php:99
+msgid "One Column"
+msgstr "Одна колонка"
+
+# @ unar
+#: inc/panels/general-options.php:100
+msgid "Two Column"
+msgstr "Две колонки"
+
+# @ unar
+#: inc/panels/general-options.php:101
+msgid "Theree Column"
+msgstr "Три колонки"
+
+# @ unar
+#: inc/panels/general-options.php:102
+msgid "Four Column"
+msgstr "Четыре колонки"
+
+# @ unar
+#: searchform.php:2
+msgid "Search this site"
+msgstr "Поиск по сайту"
+
+# @ unar
+#: searchform.php:3
+msgid "&nbsp;"
+msgstr ""
+
+# @ unar
+#: single-unar-portfolio.php:10 single-unar-portfolio.php:18
+msgid "image-hero"
+msgstr ""
