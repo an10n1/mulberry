@@ -12,12 +12,12 @@ get_header(); ?>
 <div class="l-index">
   <section class="slider">
 	  <?php
-/*
+
 	  $page_data = get_page_by_path( 'home-slider' );
 	  $page_id   = $page_data->ID;
 	  echo apply_filters( 'the_content', $page_data->post_content );
 
-	  */?>
+	  ?>
   </section>
 
   <section class="globalInfo">
@@ -55,17 +55,30 @@ get_header(); ?>
   <section class="service">
     <div class="container">
       <div class="row">
-        <div class="col-md-12">
 	        <?php
+          $idObj = get_category_by_slug('service');
+          $id = $idObj->term_id;
 
-	        $page_data = get_page_by_path( 'service' );
-	        $page_id   = $page_data->ID;
-	        echo '<h3>' . $page_data->post_title . '</h3>';
-	        echo apply_filters( 'the_content', $page_data->post_content );
+          $posts = get_posts ("category=" . $id . "&orderby=date&numberposts=6");
 
+	        if ($posts) : ?>
+		        <?php foreach ($posts as $post) : setup_postdata ($post); ?>
 
-	        ?>
-        </div>
+              <div class="jumbotron col-md-4">
+                <h4> <a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h4>
+	              <?php
+	                if (class_exists('MultiPostThumbnails')) :
+		                    MultiPostThumbnails::the_post_thumbnail(get_post_type(), 'secondary-image');
+		                endif;
+	               ?>
+                <p>short description ???</p>
+              </div>
+
+			        <?php
+		        endforeach;
+		        wp_reset_postdata();
+		        ?>
+	        <?php endif; ?>
       </div>
     </div>
   </section>

@@ -8,7 +8,7 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<div>
-		<?php get_template_part('content', 'header'); ?>
+<!--		--><?php //get_template_part('content', 'header'); ?>
 		
 		<?php /*get_template_part('content', 'meta'); */?>
 	

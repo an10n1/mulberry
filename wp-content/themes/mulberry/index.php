@@ -3,6 +3,8 @@
  * Главная страница (index.php)
  * @package WordPress
  * @subpackage Mulberry
+ *
+ * TODO
  */
 get_header(); ?>
 
