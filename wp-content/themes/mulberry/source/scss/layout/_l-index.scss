@@ -58,6 +58,10 @@
 }
 
 .aboutPreview{
+  img{
+    max-width: 100%;
+  }
+
   p{
     font-family: GOTHIC, sans-serif;
     line-height: 1.75;

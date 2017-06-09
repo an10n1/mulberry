@@ -53,6 +53,8 @@
 .service {
   padding: 80px 0 40px; }
 
+.aboutPreview img {
+  max-width: 100%; }
 .aboutPreview p {
   font-family: GOTHIC, sans-serif;
   line-height: 1.75; }
@@ -61,6 +63,13 @@
   width: auto; }
 .confidence .owl-carousel {
   margin-top: 70px; }
+
+.l-about img {
+  max-width: 100%;
+  width: 100%;
+  height: initial; }
+.l-about .confidence {
+  padding: 0; }
 
 .header-line {
   width: 100%;
@@ -107,6 +116,9 @@
     .nav-list-container .navbar-nav a {
       padding: 10px;
       font-family: GOTHIC, sans-serif; }
+
+.kama_breadcrumbs {
+  padding: 1rem 0; }
 
 .globalFooter {
   padding: 25px 0 0;
@@ -169,6 +181,9 @@
 @font-face {
   font-family: GOTHIC;
   src: url("/wp-content/themes/mulberry/img/fonts/GOTHIC.ttf"); }
+@font-face {
+  font-family: CenturyGothic;
+  src: url("/wp-content/themes/mulberry/img/fonts/CenturyGothic/CenturyGothicRegular/CenturyGothic.eot"), url("/wp-content/themes/mulberry/img/fonts/CenturyGothic/CenturyGothicRegular/CenturyGothic.ttf"), url("/wp-content/themes/mulberry/img/fonts/CenturyGothic/CenturyGothicRegular/CenturyGothic.woff"), url("/wp-content/themes/mulberry/img/fonts/CenturyGothic/CenturyGothicRegular/CenturyGothicRegular.ttf"), url("/wp-content/themes/mulberry/img/fonts/CenturyGothic/CenturyGothicRegular/CenturyGothicRegular.eot"), url("/wp-content/themes/mulberry/img/fonts/CenturyGothic/CenturyGothicRegular/CenturyGothicRegular.woff"); }
 html, body {
   height: 100%;
   margin: 0;

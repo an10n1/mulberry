@@ -76,18 +76,20 @@ get_header(); ?>
         <div class="col-md-6">
           <?php
 
-          $page_data = get_page_by_path( 'about' );
-          $page_id   = $page_data->ID;
-          echo '<h3>' . $page_data->post_title . '</h3>';
-          echo apply_filters( 'the_content', $page_data->post_content );
+            $about_page_data = get_page_by_path( 'about' );
+            $about_page_id   = $about_page_data->ID;
+            $about_page_content = apply_filters( 'the_content', $about_page_data->post_content );
+            $about_parts = get_extended( $about_page_content );
 
+            echo '<h3>' . $about_page_data->post_title . '</h3>';
+            echo $about_parts['main'];
 
           ?>
 
           <a href="/about">Читать подробнее</a>
         </div>
         <div class="col-md-6">
-          <img src="<?php echo get_template_directory_uri(); ?>/img/bg/aboutPreview.png" alt="aboutPreview">
+	        <?php echo get_the_post_thumbnail( $about_page_id, 'large'); ?>
         </div>
       </div>
     </div>
