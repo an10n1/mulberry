@@ -10,9 +10,9 @@ Template Name: Coast
 
 get_header(); ?>
 
-  <div id="primary" class="content-area l-about">
-    <div id="content" class="site-content container confidence" role="main">
-		<?php if( function_exists('kama_breadcrumbs') ) kama_breadcrumbs(' / '); ?>
+  <div id="primary" class="content-area l-coast">
+    <div id="content" class="site-content container" role="main">
+		<?php if( function_exists('kama_breadcrumbs') ) kama_breadcrumbs(' | '); ?>
 
 		<?php
 		// Start the loop.
