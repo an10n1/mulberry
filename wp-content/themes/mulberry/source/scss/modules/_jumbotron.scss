@@ -1,0 +1,32 @@
+.jumbotron {
+  padding: 0 !important;
+  border-radius: 0 !important;
+  background: transparent;
+  cursor: pointer;
+  color: #333;
+  font-family: CenturyGothic, sans-serif;
+
+  h4 {
+    text-transform: uppercase;
+    margin: 0;
+    padding: 14px;
+    border-top: 1px solid red;
+    background: #f7f7f7;
+  }
+
+  p {
+    font-size: 14px;
+    margin: 10px 0;
+    padding: 0 14px;
+    display: inline-block;
+  }
+
+  img {
+    max-width: 100%;
+    height: initial;
+  }
+
+  &:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, .5)
+  }
+}

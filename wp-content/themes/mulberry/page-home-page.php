@@ -26,7 +26,7 @@ get_header(); ?>
 
         <div class="col-md-4">
           <div class="globalInfo-item">
-            <img src="" alt="globalInfo">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/icons/home-i1.png" alt="globalInfo" />
             <p class="globalInfo-item--title">Бесплатная доставка</p>
             <p>на все заказы более чем 1000грн</p>
           </div>
@@ -34,7 +34,7 @@ get_header(); ?>
 
         <div class="col-md-4">
           <div class="globalInfo-item">
-            <img src="" alt="globalInfo">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/icons/home-i2.png" alt="globalInfo" />
             <p class="globalInfo-item--title">Гарантия</p>
             <p>14 дней на всю нашу продукцию</p>
           </div>
@@ -42,7 +42,7 @@ get_header(); ?>
 
         <div class="col-md-4">
           <div class="globalInfo-item without-border">
-            <img src="" alt="globalInfo">
+            <img src="<?php echo get_template_directory_uri(); ?>/img/icons/home-i3.png" alt="globalInfo" />
             <p class="globalInfo-item--title">Персональный подход</p>
             <p>изготовленно более 500 заказов</p>
           </div>
@@ -64,14 +64,16 @@ get_header(); ?>
 	        if ($posts) : ?>
 		        <?php foreach ($posts as $post) : setup_postdata ($post); ?>
 
-              <div class="jumbotron col-md-4">
-                <h4> <a href="<?php the_permalink() ?>" rel="bookmark"><?php the_title(); ?></a></h4>
-	              <?php
-	                if (class_exists('MultiPostThumbnails')) :
-		                    MultiPostThumbnails::the_post_thumbnail(get_post_type(), 'secondary-image');
-		                endif;
-	               ?>
-                <p>short description ???</p>
+              <div class="col-md-4">
+                <div class="jumbotron">
+                  <h4><?php the_title(); ?></h4>
+                  <?php
+                    if (class_exists('MultiPostThumbnails')) :
+                          MultiPostThumbnails::the_post_thumbnail(get_post_type(), 'secondary-image');
+                      endif;
+                   ?>
+                  <p>short description ???</p>
+                </div>
               </div>
 
 			        <?php
@@ -79,6 +81,7 @@ get_header(); ?>
 		        wp_reset_postdata();
 		        ?>
 	        <?php endif; ?>
+        <a href="/service" class="service-more">Смотреть все услуги</a>
       </div>
     </div>
   </section>

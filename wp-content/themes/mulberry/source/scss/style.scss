@@ -24,6 +24,7 @@
 @import "modules/navigation";
 @import "modules/breadcrumbs";
 @import "modules/footer";
+@import "modules/jumbotron";
 
 @font-face {
   font-family: GOTHIC;
@@ -32,12 +33,12 @@
 
 @font-face {
   font-family: CenturyGothic;
-  src: url('/wp-content/themes/mulberry/img/fonts/CenturyGothic/CenturyGothicRegular/CenturyGothic.eot'),
-  url('/wp-content/themes/mulberry/img/fonts/CenturyGothic/CenturyGothicRegular/CenturyGothic.ttf'),
-  url('/wp-content/themes/mulberry/img/fonts/CenturyGothic/CenturyGothicRegular/CenturyGothic.woff'),
-  url('/wp-content/themes/mulberry/img/fonts/CenturyGothic/CenturyGothicRegular/CenturyGothicRegular.ttf'),
-  url('/wp-content/themes/mulberry/img/fonts/CenturyGothic/CenturyGothicRegular/CenturyGothicRegular.eot'),
-  url('/wp-content/themes/mulberry/img/fonts/CenturyGothic/CenturyGothicRegular/CenturyGothicRegular.woff')
+  src: url('/wp-content/themes/mulberry/img/fonts/CenturyGothic/CenturyGothic.eot'),
+  url('/wp-content/themes/mulberry/img/fonts/CenturyGothic/CenturyGothic.ttf'),
+  url('/wp-content/themes/mulberry/img/fonts/CenturyGothic/CenturyGothic.woff'),
+  url('/wp-content/themes/mulberry/img/fonts/CenturyGothic/CenturyGothicRegular.ttf'),
+  url('/wp-content/themes/mulberry/img/fonts/CenturyGothic/CenturyGothicRegular.eot'),
+  url('/wp-content/themes/mulberry/img/fonts/CenturyGothic/CenturyGothicRegular.woff')
 }
 
 html, body {

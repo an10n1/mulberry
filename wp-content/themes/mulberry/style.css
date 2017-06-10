@@ -37,9 +37,8 @@ a {
     color: #333; }
   .globalInfo img {
     width: 50px;
-    height: 50px;
     float: left;
-    margin-right: 2rem; }
+    margin-right: 1.5rem; }
   .globalInfo-item {
     margin: 30px 0;
     padding-right: 30px; }
@@ -63,6 +62,9 @@ a {
 
 .service {
   padding: 80px 0 40px; }
+  .service-more {
+    text-transform: uppercase;
+    float: right; }
 
 .aboutPreview img {
   max-width: 100%; }
@@ -210,12 +212,36 @@ a {
       color: #fff;
       text-transform: uppercase; }
 
+.jumbotron {
+  padding: 0 !important;
+  border-radius: 0 !important;
+  background: transparent;
+  cursor: pointer;
+  color: #333;
+  font-family: CenturyGothic, sans-serif; }
+  .jumbotron h4 {
+    text-transform: uppercase;
+    margin: 0;
+    padding: 14px;
+    border-top: 1px solid red;
+    background: #f7f7f7; }
+  .jumbotron p {
+    font-size: 14px;
+    margin: 10px 0;
+    padding: 0 14px;
+    display: inline-block; }
+  .jumbotron img {
+    max-width: 100%;
+    height: initial; }
+  .jumbotron:hover {
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5); }
+
 @font-face {
   font-family: GOTHIC;
   src: url("/wp-content/themes/mulberry/img/fonts/gothic.ttf"); }
 @font-face {
   font-family: CenturyGothic;
-  src: url("/wp-content/themes/mulberry/img/fonts/CenturyGothic/CenturyGothicRegular/CenturyGothic.eot"), url("/wp-content/themes/mulberry/img/fonts/CenturyGothic/CenturyGothicRegular/CenturyGothic.ttf"), url("/wp-content/themes/mulberry/img/fonts/CenturyGothic/CenturyGothicRegular/CenturyGothic.woff"), url("/wp-content/themes/mulberry/img/fonts/CenturyGothic/CenturyGothicRegular/CenturyGothicRegular.ttf"), url("/wp-content/themes/mulberry/img/fonts/CenturyGothic/CenturyGothicRegular/CenturyGothicRegular.eot"), url("/wp-content/themes/mulberry/img/fonts/CenturyGothic/CenturyGothicRegular/CenturyGothicRegular.woff"); }
+  src: url("/wp-content/themes/mulberry/img/fonts/CenturyGothic/CenturyGothic.eot"), url("/wp-content/themes/mulberry/img/fonts/CenturyGothic/CenturyGothic.ttf"), url("/wp-content/themes/mulberry/img/fonts/CenturyGothic/CenturyGothic.woff"), url("/wp-content/themes/mulberry/img/fonts/CenturyGothic/CenturyGothicRegular.ttf"), url("/wp-content/themes/mulberry/img/fonts/CenturyGothic/CenturyGothicRegular.eot"), url("/wp-content/themes/mulberry/img/fonts/CenturyGothic/CenturyGothicRegular.woff"); }
 html, body {
   height: 100%;
   margin: 0;
