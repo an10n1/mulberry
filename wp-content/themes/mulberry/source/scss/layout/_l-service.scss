@@ -1,0 +1,57 @@
+.l-service {
+  font-family: CenturyGothic, sans-serif;
+
+  .thumbnail {
+    padding: 0;
+    border-radius: 0;
+
+    h4 {
+      text-transform: uppercase;
+      margin: 0;
+      padding: 14px;
+      border-bottom: 1px solid red;
+      background: #f7f7f7;
+      font-size: 16px;
+    }
+
+    img {
+      float: left;
+      width: 30%;
+      margin: 1rem 0 1rem .5rem;
+    }
+
+    .caption {
+      float: right;
+      width: 65%;
+      padding: 0;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0 1rem;
+      margin: 1rem 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+  }
+
+  .is-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px;
+
+    &-item {
+      flex-direction: column;
+      float: none;
+      align-items: stretch;
+      width: 100%;
+      max-width: 33%;
+      flex: 0 0 33%;
+      margin-bottom: 50px;
+    }
+  }
+
+}

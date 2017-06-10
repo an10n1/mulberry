@@ -116,6 +116,46 @@ a {
   .l-about .entry-footer {
     margin-bottom: 3rem; }
 
+.l-service {
+  font-family: CenturyGothic, sans-serif; }
+  .l-service .thumbnail {
+    padding: 0;
+    border-radius: 0; }
+    .l-service .thumbnail h4 {
+      text-transform: uppercase;
+      margin: 0;
+      padding: 14px;
+      border-bottom: 1px solid red;
+      background: #f7f7f7;
+      font-size: 16px; }
+    .l-service .thumbnail img {
+      float: left;
+      width: 30%;
+      margin: 1rem 0 1rem .5rem; }
+    .l-service .thumbnail .caption {
+      float: right;
+      width: 65%;
+      padding: 0; }
+    .l-service .thumbnail ul {
+      list-style-type: none;
+      padding: 0 1rem;
+      margin: 1rem 0; }
+    .l-service .thumbnail li {
+      margin-bottom: 10px; }
+  .l-service .is-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 50px; }
+    .l-service .is-flex-item {
+      flex-direction: column;
+      float: none;
+      align-items: stretch;
+      width: 100%;
+      max-width: 33%;
+      flex: 0 0 33%;
+      margin-bottom: 50px; }
+
 .l-blog img {
   max-width: 100%;
   height: auto; }
@@ -186,7 +226,8 @@ a {
 .kama_breadcrumbs {
   padding: 1rem 0;
   border-bottom: 1px solid #cacaca;
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  font-family: CenturyGothic, sans-serif; }
 
 .globalFooter {
   padding: 25px 0 0;
