@@ -1,5 +1,47 @@
 .l-contact {
+  font-family: CenturyGothic, sans-serif;
+  line-height: 1.75;
+
   .confidence {
     padding: 0;
+  }
+
+  article{
+    margin-bottom: 60px;
+  }
+
+  form{
+    border: 1px solid #cacaca;
+    padding: 15px 15px 95px 50px;
+    position: relative;
+    margin-bottom: 60px;
+
+    .form-group {
+      min-height: 40px;
+    }
+
+    label{
+      float: left;
+      width: 120px;
+      margin-top: 5px;
+    }
+
+    input, textarea{
+      float: right;
+      width: calc(100% - 120px);
+      border-radius: 0;
+      resize: none;
+    }
+
+    button{
+      position: absolute;
+      bottom: 15px;
+      right: 15px;
+      border-radius: 0;
+      color: #fff;
+      background: #8542a8;
+      width: 120px;
+      height: 45px;
+    }
   }
 }

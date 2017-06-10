@@ -23,7 +23,7 @@ get_header(); ?>
 
   <div id="primary" class="content-area l-contact">
     <div id="content" class="site-content container" role="main">
-		<?php if( function_exists('kama_breadcrumbs') ) kama_breadcrumbs(' / '); ?>
+		<?php if( function_exists('kama_breadcrumbs') ) kama_breadcrumbs(' | '); ?>
 
 		<?php
 		// Start the loop.
@@ -45,7 +45,7 @@ get_header(); ?>
     
     <div class="container">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6" style="margin-top: 50px">
           <p>Адрес: <?= $options['addresstext']?></p>
           <p>Телефон:
             <span><?= $options['phonetext1']?></span><br>
@@ -59,19 +59,22 @@ get_header(); ?>
           <p>Форма обратной связи</p>
           <form role="form">
             <div class="form-group">
-              <label for="name"><sub>*</sub>Ваше имя</label>
+              <label for="name"><sup>*</sup>Ваше имя</label>
               <input type="text" class="form-control" id="name">
             </div>
+            <div class="clear"></div>
             <div class="form-group">
               <label for="phone">Телефон</label>
               <input type="number" class="form-control" id="phone">
             </div>
+            <div class="clear"></div>
             <div class="form-group">
-              <label for="email"><sub>*</sub>Email</label>
+              <label for="email"><sup>*</sup>Email</label>
               <input type="email" class="form-control" id="email">
             </div>
+            <div class="clear"></div>
             <div class="form-group">
-              <label for="msg"><sub>*</sub>Email</label>
+              <label for="msg"><sup>*</sup>Сообщение</label>
               <textarea class="form-control" rows="3" id="msg"></textarea>
             </div>
 

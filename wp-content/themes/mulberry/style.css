@@ -191,8 +191,38 @@ a {
   width: 100%;
   height: auto; }
 
-.l-contact .confidence {
-  padding: 0; }
+.l-contact {
+  font-family: CenturyGothic, sans-serif;
+  line-height: 1.75; }
+  .l-contact .confidence {
+    padding: 0; }
+  .l-contact article {
+    margin-bottom: 60px; }
+  .l-contact form {
+    border: 1px solid #cacaca;
+    padding: 15px 15px 95px 50px;
+    position: relative;
+    margin-bottom: 60px; }
+    .l-contact form .form-group {
+      min-height: 40px; }
+    .l-contact form label {
+      float: left;
+      width: 120px;
+      margin-top: 5px; }
+    .l-contact form input, .l-contact form textarea {
+      float: right;
+      width: calc(100% - 120px);
+      border-radius: 0;
+      resize: none; }
+    .l-contact form button {
+      position: absolute;
+      bottom: 15px;
+      right: 15px;
+      border-radius: 0;
+      color: #fff;
+      background: #8542a8;
+      width: 120px;
+      height: 45px; }
 
 .header-line {
   width: 100%;
