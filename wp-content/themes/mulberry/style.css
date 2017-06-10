@@ -11,6 +11,17 @@
  * Author Web: http://www.antonashin.pp.ua
  *
  */
+.brown-color {
+  color: #54301a; }
+
+.lighten-black {
+  color: #333; }
+
+a {
+  color: #8542a8; }
+  a:hover, a:active, a:visited {
+    color: rgba(134, 67, 170, 0.72); }
+
 .slider {
   height: 480px;
   overflow: hidden;
@@ -89,13 +100,13 @@
   background: -moz-linear-gradient(left, #fad757 0%, #f06153 11%, #be3c70 22%, #77529c 34%, #330066 47%, #297bb6 60%, #679c2e 75%, #33cb64 85%, #f8d759 100%);
   background: -webkit-linear-gradient(left, #fad757 0%, #f06153 11%, #be3c70 22%, #77529c 34%, #330066 47%, #297bb6 60%, #679c2e 75%, #33cb64 85%, #f8d759 100%);
   background: linear-gradient(to right, #fad757 0%, #f06153 11%, #be3c70 22%, #77529c 34%, #330066 47%, #297bb6 60%, #679c2e 75%, #33cb64 85%, #f8d759 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fad757', endColorstr='#f8d759',GradientType=1 ); }
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fad757', endColorstr='#f8d759', GradientType=1); }
 
 .static-nav {
   height: 100px;
   padding-top: 2rem;
-  font-family: GOTHIC, sans-serif;
-  font-size: 15px; }
+  font-family: CenturyGothic, sans-serif;
+  font-size: 13px; }
   .static-nav .navbar-brand {
     height: 80px;
     padding: 0;
@@ -105,6 +116,14 @@
     list-style-type: none;
     padding: 0;
     margin: 0; }
+  .static-nav .brown-color,
+  .static-nav .lighten-black {
+    margin-bottom: 7px;
+    display: block; }
+  .static-nav .lighten-black,
+  .static-nav .email,
+  .static-nav .tel {
+    font-size: 14px; }
 
 .nav-list-container {
   padding: 0;
@@ -127,6 +146,8 @@
     .nav-list-container .navbar-nav a {
       padding: 10px;
       font-family: GOTHIC, sans-serif; }
+      .nav-list-container .navbar-nav a:hover {
+        background-color: #ececec !important; }
 
 .kama_breadcrumbs {
   padding: 1rem 0; }

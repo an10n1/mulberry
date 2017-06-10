@@ -58,19 +58,19 @@
           <div class="col-md-7 col-md-offset-1">
             <ul>
               <li class="col-md-3">
-                График работы <br>
+                <span class="brown-color">График работы </span>
                 ПН-ВС <br>
                 8:00 - 19:00
               </li>
               <li class="col-md-6">
-                Свяжитесь с нами по email
-                <a href="<?= $options['emailtext']?>"><?= $options['emailtext']?></a>
+                <span class="lighten-black">Свяжитесь с нами по email</span>
+                <a class="email" href="mailto:<?= $options['emailtext']?>"><?= $options['emailtext']?></a>
               </li>
               <li class="col-md-3">
-                Звоните нам <br>
-	              <?= $options['phonetext1']; ?>
+                <span class="brown-color">Звоните нам </span>
+	              <span class="tel"><?= $options['phonetext1']; ?></span>
                 <br>
-                <?= $options['phonetext2']; ?>
+                <span class="tel"><?= $options['phonetext2']; ?></span>
               </li>
             </ul>
           </div>

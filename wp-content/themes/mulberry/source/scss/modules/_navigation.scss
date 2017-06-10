@@ -1,18 +1,18 @@
 .header-line {
   width: 100%;
   height: 10px;
-  background: rgb(250,215,87);
-  background: -moz-linear-gradient(left, rgba(250,215,87,1) 0%, rgba(240,97,83,1) 11%, rgba(190,60,112,1) 22%, rgba(119,82,156,1) 34%, rgba(51,0,102,1) 47%, rgba(41,123,182,1) 60%, rgba(103,156,46,1) 75%, rgba(51,203,100,1) 85%, rgba(248,215,89,1) 100%);
-  background: -webkit-linear-gradient(left, rgba(250,215,87,1) 0%,rgba(240,97,83,1) 11%,rgba(190,60,112,1) 22%,rgba(119,82,156,1) 34%,rgba(51,0,102,1) 47%,rgba(41,123,182,1) 60%,rgba(103,156,46,1) 75%,rgba(51,203,100,1) 85%,rgba(248,215,89,1) 100%);
-  background: linear-gradient(to right, rgba(250,215,87,1) 0%,rgba(240,97,83,1) 11%,rgba(190,60,112,1) 22%,rgba(119,82,156,1) 34%,rgba(51,0,102,1) 47%,rgba(41,123,182,1) 60%,rgba(103,156,46,1) 75%,rgba(51,203,100,1) 85%,rgba(248,215,89,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fad757', endColorstr='#f8d759',GradientType=1 );
+  background: rgb(250, 215, 87);
+  background: -moz-linear-gradient(left, rgba(250, 215, 87, 1) 0%, rgba(240, 97, 83, 1) 11%, rgba(190, 60, 112, 1) 22%, rgba(119, 82, 156, 1) 34%, rgba(51, 0, 102, 1) 47%, rgba(41, 123, 182, 1) 60%, rgba(103, 156, 46, 1) 75%, rgba(51, 203, 100, 1) 85%, rgba(248, 215, 89, 1) 100%);
+  background: -webkit-linear-gradient(left, rgba(250, 215, 87, 1) 0%, rgba(240, 97, 83, 1) 11%, rgba(190, 60, 112, 1) 22%, rgba(119, 82, 156, 1) 34%, rgba(51, 0, 102, 1) 47%, rgba(41, 123, 182, 1) 60%, rgba(103, 156, 46, 1) 75%, rgba(51, 203, 100, 1) 85%, rgba(248, 215, 89, 1) 100%);
+  background: linear-gradient(to right, rgba(250, 215, 87, 1) 0%, rgba(240, 97, 83, 1) 11%, rgba(190, 60, 112, 1) 22%, rgba(119, 82, 156, 1) 34%, rgba(51, 0, 102, 1) 47%, rgba(41, 123, 182, 1) 60%, rgba(103, 156, 46, 1) 75%, rgba(51, 203, 100, 1) 85%, rgba(248, 215, 89, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#fad757', endColorstr='#f8d759', GradientType=1);
 }
 
 .static-nav {
   height: 100px;
   padding-top: 2rem;
-  font-family: GOTHIC, sans-serif;
-  font-size: 15px;
+  font-family: CenturyGothic, sans-serif;
+  font-size: 13px;
 
   .navbar-brand {
     height: 80px;
@@ -25,6 +25,18 @@
     list-style-type: none;
     padding: 0;
     margin: 0;
+  }
+
+  .brown-color,
+  .lighten-black {
+    margin-bottom: 7px;
+    display: block;
+  }
+
+  .lighten-black,
+  .email,
+  .tel {
+    font-size: 14px;
   }
 }
 
@@ -52,9 +64,13 @@
       font-size: 16px;
     }
 
-    a{
+    a {
       padding: 10px;
       font-family: GOTHIC, sans-serif;
+
+      &:hover {
+        background-color: #ececec !important;
+      }
     }
   }
 }

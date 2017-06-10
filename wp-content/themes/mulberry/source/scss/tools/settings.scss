@@ -1,0 +1,17 @@
+.brown-color{
+  color: #54301a;
+}
+
+.lighten-black{
+  color: #333;
+}
+
+a{
+  color: #8542a8;
+
+  &:hover,
+  &:active,
+  &:visited{
+  color: rgba(134, 67, 170, 0.72);
+  }
+}
