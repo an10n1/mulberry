@@ -1,49 +1,72 @@
-.globalFooter{
+.globalFooter {
   padding: 25px 0 0;
   background: #f2f2f2;
   font-family: GOTHIC, sans-serif;
 
-  .copyright{
+  .copyright {
     text-align: center;
     margin-top: 70px;
   }
 
-  .small-logo{
+  .small-logo {
     margin-bottom: 25px;
   }
 
-  h4{
+  h4 {
     margin-top: 70px;
     margin-bottom: 25px;
     text-transform: uppercase;
   }
 
-  ul{
+  ul {
     list-style-type: none;
   }
 
-  a{
+  p {
+    line-height: 1.75;
+  }
+
+  a {
     color: #000;
   }
 
-  .contact-list{
-    li{
+  .contact-list {
+    padding: 0;
+
+    li {
       padding-bottom: 1rem;
+      padding-left: 35px;
+
+      &:nth-of-type(1){
+        background: url('img/icons/phone_footer.png') 0 5px no-repeat;
+      }
+
+      &:nth-of-type(2){
+        background: url('img/icons/email_footer.png') 0 5px no-repeat;
+      }
+
+      &:nth-of-type(3){
+        background: url('img/icons/location_footer.png') 0 5px no-repeat;
+      }
     }
   }
 
-  .social-list{
+  .subscribe-text{
+    padding-left: 5px;
+  }
+
+  .social-list {
     padding: 0;
     margin: 0;
     margin-top: 30px;
     display: table;
     table-layout: fixed;
 
-    li{
+    li {
       display: table-cell;
       padding-right: 15px;
 
-      a{
+      a {
         background: url('img/icons/social.png') no-repeat;
         width: 40px;
         height: 40px;
@@ -51,33 +74,33 @@
         opacity: .75;
       }
 
-      &:hover a{
+      &:hover a {
         opacity: 1;
       }
 
-      &:nth-of-type(1) a{
+      &:nth-of-type(1) a {
         background-position: 0 0;
       }
 
-      &:nth-of-type(2) a{
+      &:nth-of-type(2) a {
         background-position: -52px 0;
       }
 
-      &:nth-of-type(3) a{
+      &:nth-of-type(3) a {
         background-position: -106px -2px;
       }
     }
   }
 
-  .footer-menu{
+  .footer-menu {
     margin-top: 50px;
 
-    li{
+    li {
       padding-bottom: 15px;
     }
   }
 
-  .subscribeForm{
+  .subscribeForm {
     margin-bottom: 15px;
 
     input, button {
@@ -86,8 +109,8 @@
       border-color: #b3b3b3;
       font-family: GOTHIC, sans-serif;
     }
-    
-    button{
+
+    button {
       background: #8542a8;
       color: #fff;
       text-transform: uppercase;

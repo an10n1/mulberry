@@ -181,10 +181,23 @@ a {
     text-transform: uppercase; }
   .globalFooter ul {
     list-style-type: none; }
+  .globalFooter p {
+    line-height: 1.75; }
   .globalFooter a {
     color: #000; }
-  .globalFooter .contact-list li {
-    padding-bottom: 1rem; }
+  .globalFooter .contact-list {
+    padding: 0; }
+    .globalFooter .contact-list li {
+      padding-bottom: 1rem;
+      padding-left: 35px; }
+      .globalFooter .contact-list li:nth-of-type(1) {
+        background: url("img/icons/phone_footer.png") 0 5px no-repeat; }
+      .globalFooter .contact-list li:nth-of-type(2) {
+        background: url("img/icons/email_footer.png") 0 5px no-repeat; }
+      .globalFooter .contact-list li:nth-of-type(3) {
+        background: url("img/icons/location_footer.png") 0 5px no-repeat; }
+  .globalFooter .subscribe-text {
+    padding-left: 5px; }
   .globalFooter .social-list {
     padding: 0;
     margin: 0;
