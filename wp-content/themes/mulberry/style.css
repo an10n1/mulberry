@@ -70,7 +70,12 @@ a {
   max-width: 100%; }
 .aboutPreview p {
   font-family: GOTHIC, sans-serif;
-  line-height: 1.75; }
+  line-height: 1.75;
+  font-size: 16px; }
+.aboutPreview-more {
+  text-transform: uppercase;
+  margin-top: 4rem;
+  display: inline-block; }
 
 .confidence .carousel-slider .carousel-slider__item img {
   width: auto; }

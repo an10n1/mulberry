@@ -102,7 +102,7 @@ get_header(); ?>
 
           ?>
 
-          <a href="/about">Читать подробнее</a>
+          <a href="/about" class="aboutPreview-more">Читать подробнее</a>
         </div>
         <div class="col-md-6">
 	        <?php echo get_the_post_thumbnail( $about_page_id, 'large'); ?>
