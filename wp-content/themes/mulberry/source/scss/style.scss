@@ -16,6 +16,9 @@
 
 @import "layout/l-index";
 @import "layout/l-about";
+@import "layout/l-service";
+@import "layout/l-blog";
+@import "layout/l-contact";
 
 @import "modules/navigation";
 @import "modules/breadcrumbs";
@@ -44,7 +47,7 @@ html, body {
 
 .page-wrapper {
   min-height: 100%;
-  margin-bottom: -300px;
+  margin-bottom: -535px;
 }
 
 * html .page-wrapper {
@@ -52,7 +55,7 @@ html, body {
 }
 
 .page-buffer {
-  height: 300px;
+  height: 535px;
 }
 
 a:hover{

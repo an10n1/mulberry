@@ -16,7 +16,9 @@ get_header(); ?>
         <div class="col-md-12">
 	        <?php if( function_exists('kama_breadcrumbs') ) kama_breadcrumbs(' / '); ?>
         </div>
+      </div>
 
+      <div class="row">
         <div class="col-md-9">
           <div class="single-post-main-content">
             <div id="primary" class="content-area">

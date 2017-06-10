@@ -117,7 +117,7 @@ get_header(); ?>
 
 		<div class="clear"></div>
 		
-		<?php portfolio_paging_nav(); ?>
+		<?php /*portfolio_paging_nav(); */?>
 	</div><!-- #primary -->
 </div>
 <?php get_footer(); ?>
