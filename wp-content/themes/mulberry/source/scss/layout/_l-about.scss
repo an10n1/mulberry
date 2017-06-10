@@ -1,4 +1,10 @@
 .l-about {
+  font-family: CenturyGothic, sans-serif;
+  line-height: 1.75;
+
+  .entry-title{
+    display: none;
+  }
 
   img{
     max-width: 100%;
@@ -6,7 +12,30 @@
     height: initial;
   }
 
+  .masonry{
+    margin-top: 3rem !important;
+  }
+
   .confidence {
     padding: 0;
+    border-bottom: 0;
+  }
+
+  .owl-carousel{
+    margin-top: calc(30px + 4rem) !important;
+    margin-bottom: 3rem;
+
+    &:before {
+      content: '';
+      height: 1px;
+      width: 100%;
+      background: #cacaca;
+      position: absolute;
+      top: -3rem;
+    }
+  }
+
+  .entry-footer{
+    margin-bottom: 3rem;
   }
 }

@@ -23,7 +23,7 @@ a {
     color: rgba(134, 67, 170, 0.72); }
 
 .slider {
-  height: 480px;
+  height: 475px;
   overflow: hidden;
   background-size: cover;
   background: url("img/bg/home_page_bg.jpg") no-repeat top center; }
@@ -89,12 +89,32 @@ a {
 .confidence .owl-next {
   opacity: 1 !important; }
 
-.l-about img {
-  max-width: 100%;
-  width: 100%;
-  height: initial; }
-.l-about .confidence {
-  padding: 0; }
+.l-about {
+  font-family: CenturyGothic, sans-serif;
+  line-height: 1.75; }
+  .l-about .entry-title {
+    display: none; }
+  .l-about img {
+    max-width: 100%;
+    width: 100%;
+    height: initial; }
+  .l-about .masonry {
+    margin-top: 3rem !important; }
+  .l-about .confidence {
+    padding: 0;
+    border-bottom: 0; }
+  .l-about .owl-carousel {
+    margin-top: calc(30px + 4rem) !important;
+    margin-bottom: 3rem; }
+    .l-about .owl-carousel:before {
+      content: '';
+      height: 1px;
+      width: 100%;
+      background: #cacaca;
+      position: absolute;
+      top: -3rem; }
+  .l-about .entry-footer {
+    margin-bottom: 3rem; }
 
 .l-blog img {
   max-width: 100%;
@@ -164,7 +184,9 @@ a {
         background-color: #ececec !important; }
 
 .kama_breadcrumbs {
-  padding: 1rem 0; }
+  padding: 1rem 0;
+  border-bottom: 1px solid #cacaca;
+  margin-bottom: 40px; }
 
 .globalFooter {
   padding: 25px 0 0;
