@@ -80,7 +80,14 @@ a {
 .confidence .carousel-slider .carousel-slider__item img {
   width: auto; }
 .confidence .owl-carousel {
-  margin-top: 70px; }
+  margin-top: 30px;
+  border: 1px solid #eee;
+  padding: 3rem 0; }
+.confidence .owl-item {
+  border-left: 1px solid #eee; }
+.confidence .owl-prev,
+.confidence .owl-next {
+  opacity: 1 !important; }
 
 .l-about img {
   max-width: 100%;
