@@ -2,6 +2,10 @@
   font-family: CenturyGothic, sans-serif;
   line-height: 1.75;
 
+  .kama_breadcrumbs{
+    padding: 1rem 15px;
+  }
+
   .entry-title{
     display: none;
   }
@@ -16,8 +20,8 @@
     margin-top: 3rem !important;
   }
 
-  .confidence {
-    padding: 0;
+  article {
+    padding: 0 15px;
     border-bottom: 0;
   }
 
@@ -38,4 +42,36 @@
   .entry-footer{
     margin-bottom: 3rem;
   }
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2) {
+  .l-about{
+    .confidence{
+      padding: 10px 0;
+    }
+  }
+}
+
+/* Portrait */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait) {
+
+}
+
+/* Landscape */
+@media only screen
+and (min-device-width: 375px)
+and (max-device-width: 667px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: landscape) {
+
 }

@@ -45,7 +45,8 @@ get_header(); ?>
     
     <div class="container">
       <div class="row">
-        <div class="col-md-6" style="margin-top: 50px">
+
+        <div class="col-md-6 col-sm-6 col-xs-12" style="margin-top: 50px">
           <p>Адрес: <?= $options['addresstext']?></p>
           <p class="ib">Телефон: </p>
           <ul class="ul-span">
@@ -56,7 +57,8 @@ get_header(); ?>
           <p>График работы: ПН-ВС 8:00-19:00</p>
           <p>Email: <a href="mailto:<?= $options['emailtext']?>"> <?= $options['emailtext']?></a></p>
         </div>
-        <div class="col-md-6">
+
+        <div class="col-md-6 col-sm-6 col-xs-12">
           <p>Форма обратной связи</p>
           <form role="form" class="contact-form" action="<?php echo get_template_directory_uri(); ?>/contact/formContact.php">
             <div class="form-group">
@@ -82,6 +84,7 @@ get_header(); ?>
             <button type="submit" class="btn btn-default send-msg">Отправить</button>
           </form>
         </div>
+
       </div>
     </div>
   </div><!-- #primary -->

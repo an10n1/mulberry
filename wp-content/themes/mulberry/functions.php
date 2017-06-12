@@ -440,6 +440,22 @@ if(!function_exists('portfolio_styles')) {
 
 add_action('wp_enqueue_scripts', 'Styles');
 
+add_action( 'after_setup_theme', 'wpt_setup' );
+if ( ! function_exists( 'wpt_setup' ) ):
+	function wpt_setup() {
+		register_nav_menu( 'Navigation Menu', __( 'Navigation Menu', 'wptuts' ) );
+	} endif;
+
+//register_nav_menu('primary', __('Navigation Menu', 'portfolio'));
+//register_nav_menu('footer', __('Social Menu', 'portfolio'));
+
+// Register Custom Navigation Walker
+require_once('wp-bootstrap-navwalker.php');
+
+//register_nav_menus( array(
+//	'primary' => __( 'Navigation Menu', 'Mulberry' ),
+//) );
+
 
 /*
 * Define a constant path to our single template folder

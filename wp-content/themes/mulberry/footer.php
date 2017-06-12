@@ -18,7 +18,7 @@
           немного счастливее. Вот почеиу мы это делаем и делаем с удовольствием! Принимаем самые сложные заказы, ведь мы
           команда лучших специалистов в своем деле.</p>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 col-sm-6">
         <h4>Контактная информация</h4>
         <ul class="contact-list">
           <li>
@@ -39,7 +39,7 @@
           <li><a href="#"></a></li>
         </ul>
       </div>
-      <div class="col-md-4">
+      <div class="col-md-4 col-sm-6">
 
         <h4>Оставайтесь на связи</h4>
         <form action="" class="subscribeForm">
@@ -54,13 +54,13 @@
         <p class="subscribe-text">Будьте в курсе последних новостей и предложений от нашей компании, подписавшись на нашу рассылку</p>
 
         <div class="footer-menu">
-          <ul class="col-md-5">
+          <ul class="col-md-5 col-sm-6 col-xs-6">
             <li><a href="">Доставка</a></li>
             <li><a href="/about">О нас</a></li>
             <li><a href="/service">Продукция</a></li>
           </ul>
 
-          <ul class="col-md-7">
+          <ul class="col-md-7 col-sm-6 col-xs-6">
             <li><a href="">Возврат</a></li>
             <li><a href="">Оптовым покупателям</a></li>
             <li><a href="/contact">Связь с нами</a></li>

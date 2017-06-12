@@ -78,8 +78,8 @@
 }
 
 .l-blog {
-  .entry-content{
-    img{
+  .entry-content {
+    img {
       width: initial;
       max-width: 100%;
     }
@@ -146,13 +146,13 @@
     .post-wrap {
       border: 1px solid #cacaca;
 
-      .post-mask{
+      .post-mask {
         height: 200px;
         overflow: hidden;
         text-align: center;
       }
 
-      img{
+      img {
         //max-height: 200px;
         width: auto;
         max-width: 100%;
@@ -178,5 +178,199 @@
         float: right;
       }
     }
+  }
+}
+
+/* DEFAULT Portrait */
+@media only screen and (max-width: 1024px) {
+  .l-blog .blog-random-post-block ul img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .l-blog .blog-random-post-block li > span,
+  .l-blog .blog-random-post-block ul a {
+    width: 140px;
+  }
+}
+
+/* IPAD Portrait */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) and (-webkit-min-device-pixel-ratio: 1) {
+  .l-blog .caption {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .l-blog-single .blog-bottom-sidebar footer {
+    margin-bottom: 0;
+  }
+
+  .l-blog-single .blog-bottom-sidebar footer .post-date {
+    float: none;
+  }
+
+  .l-blog-single .blog-bottom-sidebar footer .more-link {
+    float: none;
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+  }
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+/* Portrait */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: portrait) {
+  .l-blog .caption {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .l-blog .caption {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .l-blog-single .blog-bottom-sidebar footer {
+    margin-bottom: 0;
+  }
+
+  .l-blog-single .blog-bottom-sidebar footer .post-date {
+    float: none;
+  }
+
+  .l-blog-single .blog-bottom-sidebar footer .more-link {
+    float: none;
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .post-date {
+    display: none;
+  }
+
+  .l-blog-single .blog-bottom-sidebar .post-wrap .post-mask {
+    height: 90px;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 414px) and (max-device-width: 736px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+  .l-blog .caption {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .l-blog .caption {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .l-blog-single .blog-bottom-sidebar footer {
+    margin-bottom: 0;
+  }
+
+  .l-blog-single .blog-bottom-sidebar footer .post-date {
+    float: none;
+  }
+
+  .l-blog-single .blog-bottom-sidebar footer .more-link {
+    float: none;
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .post-date {
+    display: none;
+  }
+
+  .l-blog-single .blog-bottom-sidebar .post-wrap .post-mask {
+    height: 90px;
+  }
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: portrait) {
+  .l-blog .caption {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .l-blog .caption {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .l-blog .caption {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .l-blog-single .blog-bottom-sidebar footer {
+    margin-bottom: 0;
+  }
+
+  .l-blog-single .blog-bottom-sidebar footer .post-date {
+    float: none;
+  }
+
+  .l-blog-single .blog-bottom-sidebar footer .more-link {
+    float: none;
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .post-date {
+    display: none;
+  }
+
+  .l-blog-single .blog-bottom-sidebar .post-wrap .post-mask {
+    height: 90px;
+  }
+}
+
+/* Landscape */
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px) and (-webkit-min-device-pixel-ratio: 2) and (orientation: landscape) {
+  .l-blog .caption {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .l-blog .caption {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .l-blog .caption {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .l-blog-single .blog-bottom-sidebar footer {
+    margin-bottom: 0;
+  }
+
+  .l-blog-single .blog-bottom-sidebar footer .post-date {
+    float: none;
+  }
+
+  .l-blog-single .blog-bottom-sidebar footer .more-link {
+    float: none;
+    display: block;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .post-date {
+    display: none;
+  }
+
+  .l-blog-single .blog-bottom-sidebar .post-wrap .post-mask {
+    height: 90px;
   }
 }

@@ -20,7 +20,7 @@ get_header(); ?>
 
       <div class="row">
 
-        <div class="col-md-3">
+        <div class="col-md-3 hidden-sm hidden-xs">
           <div class="blog-right-sidebar" >
             <div class="blog-category-block">
               <div class="title-sidebar-subblock">
@@ -33,7 +33,7 @@ get_header(); ?>
                     'order' => 'ASC'
                   ));
                   foreach( $categories as $category ){
-                    echo '<li><a href="' . str_replace('/category/', '/', get_category_link( $category->term_id ) ) . '" class="blog-link-category" title="' . sprintf( __( "View all posts in %s" ), $category->name ) . '" ' . '>' . $category->name.' <span class="cat-count">('.$category->count.')</span></a>'.'</li>';
+                    echo '<li><a href="' . str_replace('/category/', '/', get_category_link( $category->term_id ) ) . '" class="blog-link-category" title="' . sprintf( __( "View all posts in %s" ), $category->name ) . '" ' . '>' . $category->name.' <span class="cat-count">('.$category->count.')</span></a><div class="clear"></div>'.'</li>';
                   } ?>
                 </ul>
               </div>

@@ -24,7 +24,7 @@ get_header(); ?>
     <div class="container">
       <div class="row">
 
-        <div class="col-md-4">
+        <div class="col-sm-4">
           <div class="globalInfo-item">
             <img src="<?php echo get_template_directory_uri(); ?>/img/icons/home-i1.png" alt="globalInfo" />
             <p class="globalInfo-item--title">Бесплатная доставка</p>
@@ -32,7 +32,7 @@ get_header(); ?>
           </div>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-sm-4">
           <div class="globalInfo-item">
             <img src="<?php echo get_template_directory_uri(); ?>/img/icons/home-i2.png" alt="globalInfo" />
             <p class="globalInfo-item--title">Гарантия</p>
@@ -40,7 +40,7 @@ get_header(); ?>
           </div>
         </div>
 
-        <div class="col-md-4">
+        <div class="col-sm-4">
           <div class="globalInfo-item without-border">
             <img src="<?php echo get_template_directory_uri(); ?>/img/icons/home-i3.png" alt="globalInfo" />
             <p class="globalInfo-item--title">Персональный подход</p>
@@ -64,7 +64,7 @@ get_header(); ?>
 	        if ($posts) : ?>
 		        <?php foreach ($posts as $post) : setup_postdata ($post); ?>
 
-              <div class="col-md-4">
+              <div class="col-md-4 col-sm-6">
                 <div class="jumbotron">
                   <h4><?php the_title(); ?></h4>
                   <?php
