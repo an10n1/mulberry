@@ -1,13 +1,154 @@
+.l-blog,
+.l-blog-single {
+  .post-date {
+    color: #cacaca;
+    background: url("img/icons/date_blog.png") 0 2px no-repeat;
+    padding-left: 22px;
+  }
+}
+
 .l-blog {
+  .blog-right-sidebar {
+    margin-bottom: 50px;
+  }
+
+  .cat-count {
+    color: #cacaca;
+  }
+
   img {
     max-width: 100%;
     height: auto;
   }
+
+  .text-sidebar-subblock {
+    text-transform: uppercase;
+    margin-bottom: 25px;
+  }
+
+  .category-list,
+  .blog-random-post-block {
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 15px;
+    }
+  }
+
+  .blog-random-post-block {
+    margin-bottom: 100px;
+
+    ul {
+      img {
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+      }
+
+      a {
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        width: 170px;
+        display: block;
+        float: right;
+        margin: 15px 0 5px;
+        font-weight: bold;
+      }
+    }
+
+    li > span {
+      float: right;
+      width: 170px;
+    }
+  }
+
+  .post-date {
+    color: #cacaca;
+    background: url("img/icons/date_blog.png") 0 2px no-repeat;
+    padding-left: 22px;
+  }
+
+  .category-list ul {
+    margin-bottom: 40px;
+  }
 }
 
-.l-blog-single{
+.l-blog {
+
+  .thumbnail {
+    border-radius: 0;
+    padding: 0;
+  }
+
+  .col-md-12 {
+    .caption {
+      padding-left: 10px;
+      padding-right: 10px;
+    }
+  }
+
+  .caption {
+    padding-left: 0;
+    padding-top: 30px;
+
+    .more-link {
+      float: right;
+    }
+  }
+}
+
+.l-blog-single {
   img {
     width: 100%;
     height: auto;
+  }
+
+  .title-sidebar-subblock {
+    text-transform: uppercase;
+  }
+
+  .blog-bottom-sidebar {
+    border-top: 1px solid #cacaca;
+    margin-top: 50px;
+    padding-top: 50px;
+
+    ul {
+      list-style-type: none;
+      display: table;
+      table-layout: fixed;
+      width: 100%;
+      padding: 0;
+    }
+
+    li {
+      display: table-cell;
+    }
+
+    .post-wrap {
+      border: 1px solid #cacaca;
+    }
+
+    footer {
+      padding: 15px;
+      margin-bottom: 20px;
+
+      a:not(.more-link) {
+        display: block;
+        margin-bottom: 10px;
+        color: #000;
+      }
+
+      .post-date {
+        float: left;
+      }
+
+      .more-link {
+        float: right;
+      }
+    }
   }
 }

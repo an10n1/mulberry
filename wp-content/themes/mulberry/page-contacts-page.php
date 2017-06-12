@@ -47,11 +47,12 @@ get_header(); ?>
       <div class="row">
         <div class="col-md-6" style="margin-top: 50px">
           <p>Адрес: <?= $options['addresstext']?></p>
-          <p>Телефон:
-            <span><?= $options['phonetext1']?></span><br>
-            <span><?= $options['phonetext2']?></span><br>
-            <span><?= $options['phonetext3']?></span>
-          </p>
+          <p class="ib">Телефон: </p>
+          <ul class="ul-span">
+            <li><?= $options['phonetext1']?></li>
+            <li><?= $options['phonetext2']?></li>
+            <li><?= $options['phonetext3']?></li>
+          </ul>
           <p>График работы: ПН-ВС 8:00-19:00</p>
           <p>Email: <a href="mailto:<?= $options['emailtext']?>"> <?= $options['emailtext']?></a></p>
         </div>

@@ -18,54 +18,15 @@ function theme_options_add_page() {
 }
 
 /**
- * Create arrays for our select and radio options
- */
-$select_options = array(
-	'green' => array(
-		'value' =>	'green',
-		'label' => __( 'green', 'sampletheme' )
-	),
-	'red' => array(
-		'value' =>	'red',
-		'label' => __( 'red', 'sampletheme' )
-	),
-	'purple' => array(
-		'value' => 'purple',
-		'label' => __( 'purple', 'sampletheme' )
-	),
-	'tomato' => array(
-		'value' => 'tomato',
-		'label' => __( 'tomato', 'sampletheme' )
-	)
-);
-
-$radio_options = array(
-	'yes' => array(
-		'value' => 'yes',
-		'label' => __( 'Yes', 'sampletheme' )
-	),
-	'no' => array(
-		'value' => 'no',
-		'label' => __( 'No', 'sampletheme' )
-	),
-	'maybe' => array(
-		'value' => 'maybe',
-		'label' => __( 'Maybe', 'sampletheme' )
-	)
-);
-
-/**
  * Create the options page
  */
 function theme_options_do_page() {
-	global $select_options, $radio_options;
 
 	if ( ! isset( $_REQUEST['settings-updated'] ) )
 		$_REQUEST['settings-updated'] = false;
 
 	?>
 	<div class="wrap">
-<!--		--><?php //screen_icon(); echo "<h2>" . get_current_theme() . __( ': Настройки', 'sampletheme' ) . "</h2>"; ?>
 		<h1>Настроки темы</h1>
 
 		<?php if ( false !== $_REQUEST['settings-updated'] ) : ?>
@@ -85,14 +46,25 @@ function theme_options_do_page() {
 				?>
 				<tr valign="top"><th scope="row"><?php _e( 'Телефон', 'sampletheme' ); ?></th>
 					<td>
-						<input id="sample_theme_options[phonetext1]" class="regular-text" type="text" name="sample_theme_options[phonetext1]" value="<?php esc_attr_e( $options['phonetext1'] ); ?>" />
-						<input id="sample_theme_options[phonetext2]" class="regular-text" type="text" name="sample_theme_options[phonetext2]" value="<?php esc_attr_e( $options['phonetext2'] ); ?>" />
-						<input id="sample_theme_options[phonetext3]" class="regular-text" type="text" name="sample_theme_options[phonetext3]" value="<?php esc_attr_e( $options['phonetext3'] ); ?>" />
+						<input id="sample_theme_options[phonetext1]" class="regular-text" type="text" name="sample_theme_options[phonetext1]" value="<?php esc_attr_e( $options['phonetext1'] ); ?>" placeholder="Телефон"/>
+						<input id="sample_theme_options[phonetext2]" class="regular-text" type="text" name="sample_theme_options[phonetext2]" value="<?php esc_attr_e( $options['phonetext2'] ); ?>" placeholder="Телефон"/>
+						<input id="sample_theme_options[phonetext3]" class="regular-text" type="text" name="sample_theme_options[phonetext3]" value="<?php esc_attr_e( $options['phonetext3'] ); ?>" placeholder="Телефон"/>
 					</td>
 				</tr>
+        <tr valign="top"><th scope="row" style="display: none"><?php _e( 'Дни / Время работы', 'sampletheme' ); ?></th>
+          <td>
+            <?php if(isset($options['daytext'])):?>
+              <input id="sample_theme_options[daytext]" class="regular-text" type="text" name="sample_theme_options[daytext]" value="<?php esc_attr_e( $options['daytext'] ); ?>" placeholder="Дни"/>
+            <?php endif; ?>
+
+	          <?php if(isset($options['timetext'])):?>
+            <input id="sample_theme_options[timetext]" class="regular-text" type="text" name="sample_theme_options[timetext]" value="<?php esc_attr_e( $options['timetext'] ); ?>" placeholder="Время" />
+            <?php endif; ?>
+          </td>
+        </tr>
 				<tr valign="top"><th scope="row"><?php _e( 'Email', 'sampletheme' ); ?></th>
 					<td>
-						<input id="sample_theme_options[emailtext]" class="regular-text" type="text" name="sample_theme_options[emailtext]" value="<?php esc_attr_e( $options['emailtext'] ); ?>" />
+						<input id="sample_theme_options[emailtext]" class="regular-text" type="text" name="sample_theme_options[emailtext]" value="<?php esc_attr_e( $options['emailtext'] ); ?>" placeholder="example@site.com"/>
 					</td>
 				</tr>
 				<tr valign="top"><th scope="row"><?php _e( 'Адрес', 'sampletheme' ); ?></th>
@@ -100,34 +72,6 @@ function theme_options_do_page() {
 						<input id="sample_theme_options[addresstext]" class="regular-text" type="text" name="sample_theme_options[addresstext]" value="<?php esc_attr_e( $options['addresstext'] ); ?>" />
 					</td>
 				</tr>
-
-				<?php
-				/**
-				 * A sample select input option
-				 */
-				?>
-				<tr valign="top"><th scope="row"><?php _e( 'Выберите цветовую схему', 'sampletheme' ); ?></th>
-					<td>
-						<select name="sample_theme_options[selectinput]">
-							<?php
-							$selected = $options['selectinput'];
-							$p = '';
-							$r = '';
-
-							foreach ( $select_options as $option ) {
-								$label = $option['label'];
-								if ( $selected == $option['value'] ) // Make default first in list
-									$p = "\n\t<option style=\"padding-right: 10px;\" selected='selected' value='" . esc_attr( $option['value'] ) . "'>$label</option>";
-								else
-									$r .= "\n\t<option style=\"padding-right: 10px;\" value='" . esc_attr( $option['value'] ) . "'>$label</option>";
-							}
-							echo $p . $r;
-							?>
-						</select>
-						<label class="description" for="sample_theme_options[selectinput]"></label>
-					</td>
-				</tr>
-
 			</table>
 
 			<p class="submit">

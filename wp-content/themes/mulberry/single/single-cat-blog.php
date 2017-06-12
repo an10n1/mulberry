@@ -6,7 +6,7 @@
 
 get_header(); ?>
 
-<div class="single-post-content">
+<div class="single-post-content l-blog-single">
   <div class="container">
     <div class="row">
       <div class="col-md-12">
@@ -34,7 +34,7 @@ get_header(); ?>
 
     <div class="row">
       <div class="col-md-12">
-        <div class="blog-right-sidebar">
+        <div class="blog-bottom-sidebar">
           <div class="blog-random-post-block">
 
             <div class="title-sidebar-subblock">
@@ -51,12 +51,17 @@ get_header(); ?>
               );
               query_posts( $args );
               while ( have_posts() ) : the_post();
-                echo '<li>';
+                echo '<li><div class="post-wrap">';
 	              if (class_exists('MultiPostThumbnails')) :
 		              MultiPostThumbnails::the_post_thumbnail(get_post_type(), 'secondary-image');
+
+	              else:
+                    echo '<img src="img/bg/empty.png" />';
 	              endif;
-                echo '<a href="' . get_permalink() . '" class="blog-random-link" title="' . the_title( '', '', false ) . '">' . the_title( '', '', false ) . '</a><br>';
-                echo '</li>';
+                echo '<footer><a href="' . get_permalink() . '" class="blog-random-link" title="' . the_title( '', '', false ) . '">' . the_title( '', '', false ) . '</a>';
+	              the_date('Y-m-d', '<span class="post-date">', '</span>');
+	              echo '<a href="'.get_permalink().'" class="more-link">Читать далее >></a><div class="clear"></div>';
+                echo '</footer></div></li>';
                 endwhile;
               ?>
             </ul>
