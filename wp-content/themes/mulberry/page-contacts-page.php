@@ -58,7 +58,7 @@ get_header(); ?>
         </div>
         <div class="col-md-6">
           <p>Форма обратной связи</p>
-          <form role="form">
+          <form role="form" class="contact-form" action="<?php echo get_template_directory_uri(); ?>/contact/formContact.php">
             <div class="form-group">
               <label for="name"><sup>*</sup>Ваше имя</label>
               <input type="text" class="form-control" id="name">
@@ -79,12 +79,26 @@ get_header(); ?>
               <textarea class="form-control" rows="3" id="msg"></textarea>
             </div>
 
-            <button type="submit" class="btn btn-default">Отправить</button>
+            <button type="submit" class="btn btn-default send-msg">Отправить</button>
           </form>
         </div>
       </div>
     </div>
   </div><!-- #primary -->
+
+  <div class="modal fade contact-dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+          <h4 class="modal-title"></h4>
+        </div>
+        <div class="modal-body">
+          <p>Сообщение отправленно</p>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
 
   <div id="G_map">
     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2677.6095892800126!2d35.10478881589258!3d47.84715627932188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dc66d5574bc109%3A0x844fd7c310a2b6d0!2z0LLRg9C70LjRhtGPINCf0LXRgNC10LzQvtCz0LgsIDIzLCDQl9Cw0L_QvtGA0ZbQttC20Y8sINCX0LDQv9C-0YDRltC30YzQutCwINC-0LHQu9Cw0YHRgtGM!5e0!3m2!1sru!2sua!4v1497000833147"

@@ -440,6 +440,7 @@ if(!function_exists('portfolio_styles')) {
 
 add_action('wp_enqueue_scripts', 'Styles');
 
+
 /*
 * Define a constant path to our single template folder
 */
