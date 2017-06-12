@@ -61,7 +61,7 @@ get_header(); ?>
                   endif;
 	              echo '</div>';
                 echo '<footer><a href="' . get_permalink() . '" class="blog-random-link" title="' . the_title( '', '', false ) . '">' . the_title( '', '', false ) . '</a>';
-	              the_date('Y-m-d', '<span class="post-date">', '</span>');
+	              echo '<span class="post-date">' . get_the_date('d M Y') . '</span>';
 	              echo '<a href="'.get_permalink().'" class="more-link">Читать далее >></a><div class="clear"></div>';
                 echo '</footer></div></li>';
                 endwhile;

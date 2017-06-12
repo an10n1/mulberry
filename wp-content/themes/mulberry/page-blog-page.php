@@ -33,7 +33,7 @@ get_header(); ?>
                     'order' => 'ASC'
                   ));
                   foreach( $categories as $category ){
-                    echo '<li><a href="' . get_category_link( $category->term_id ) . '" class="blog-link-category" title="' . sprintf( __( "View all posts in %s" ), $category->name ) . '" ' . '>' . $category->name.' <span class="cat-count">('.$category->count.')</span></a>'.'</li>';
+                    echo '<li><a href="' . str_replace('/category/', '/', get_category_link( $category->term_id ) ) . '" class="blog-link-category" title="' . sprintf( __( "View all posts in %s" ), $category->name ) . '" ' . '>' . $category->name.' <span class="cat-count">('.$category->count.')</span></a>'.'</li>';
                   } ?>
                 </ul>
               </div>
@@ -55,17 +55,23 @@ get_header(); ?>
               );
               query_posts($args);
 
+
               while (have_posts()) : the_post();
+	              $MultyThumbFlag = false;
+
                 echo '<li>';
 
                 if (class_exists('MultiPostThumbnails')) :
                   MultiPostThumbnails::the_post_thumbnail(get_post_type(), 'secondary-image');
-                else:
-                    echo '<img height="80" width="80" alt="empty" />';
+	                $MultyThumbFlag = true;
                 endif;
 
+                if(!$MultyThumbFlag){
+	                echo '<img src="/img/bg/empty.png" height="80" width="80" alt="empty" />';
+                }
+
                 echo '<span><a href="'.get_permalink().'" class="blog-random-link" title="'.the_title('','',false).'">'.the_title('','',false).'</a>';
-                the_date('Y-m-d', '<span class="post-date">', '</span>');
+	              echo '<span class="post-date">' . get_the_date('d M Y') . '</span>';
 
                 echo '</span></li>';
               endwhile;
