@@ -52,12 +52,14 @@ get_header(); ?>
               query_posts( $args );
               while ( have_posts() ) : the_post();
                 echo '<li><div class="post-wrap">';
-	              if (class_exists('MultiPostThumbnails')) :
-		              MultiPostThumbnails::the_post_thumbnail(get_post_type(), 'secondary-image');
+                echo '<div class="post-mask">';
+                  if (class_exists('MultiPostThumbnails')) :
+                    MultiPostThumbnails::the_post_thumbnail(get_post_type(), 'secondary-image');
 
-	              else:
-                    echo '<img src="img/bg/empty.png" />';
-	              endif;
+                  else:
+                      echo '<img src="img/bg/empty.png" />';
+                  endif;
+	              echo '</div>';
                 echo '<footer><a href="' . get_permalink() . '" class="blog-random-link" title="' . the_title( '', '', false ) . '">' . the_title( '', '', false ) . '</a>';
 	              the_date('Y-m-d', '<span class="post-date">', '</span>');
 	              echo '<a href="'.get_permalink().'" class="more-link">Читать далее >></a><div class="clear"></div>';
