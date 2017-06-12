@@ -1,5 +1,5 @@
 .slider {
-  height: 475px;
+  max-height: 475px;
   overflow: hidden;
   background-size: cover;
   background: url('img/bg/home_page_bg.jpg') no-repeat top center;
@@ -46,7 +46,7 @@
 
 .aboutPreview,
 .confidence {
-  padding: 60px;
+  padding: 60px 0;
 
   h3 {
     text-transform: uppercase;
@@ -63,8 +63,10 @@
 }
 
 .aboutPreview {
+
   img {
     max-width: 100%;
+    height: inherit;
   }
 
   p {

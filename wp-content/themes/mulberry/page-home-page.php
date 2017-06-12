@@ -72,7 +72,15 @@ get_header(); ?>
                           MultiPostThumbnails::the_post_thumbnail(get_post_type(), 'secondary-image');
                       endif;
                    ?>
-                  <p>short description ???</p>
+                  <p><?php
+	                  $mykey_values = get_post_custom_values( 'Service-short-description' );
+	                  if($mykey_values){
+	                    foreach ( $mykey_values as $key => $value ) {
+		                    echo "$value";
+	                    }
+                    }else{
+	                    echo '&nbsp;';
+                    }?></p>
                 </div>
               </div>
 

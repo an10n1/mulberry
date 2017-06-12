@@ -26,7 +26,7 @@ a {
   display: inline-block; }
 
 .slider {
-  height: 475px;
+  max-height: 475px;
   overflow: hidden;
   background-size: cover;
   background: url("img/bg/home_page_bg.jpg") no-repeat top center; }
@@ -58,7 +58,7 @@ a {
 
 .aboutPreview,
 .confidence {
-  padding: 60px; }
+  padding: 60px 0; }
   .aboutPreview h3,
   .confidence h3 {
     text-transform: uppercase; }
@@ -70,7 +70,8 @@ a {
     float: right; }
 
 .aboutPreview img {
-  max-width: 100%; }
+  max-width: 100%;
+  height: inherit; }
 .aboutPreview p {
   font-family: GOTHIC, sans-serif;
   line-height: 1.75;

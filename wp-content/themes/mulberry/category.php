@@ -10,27 +10,20 @@ get_header(); ?>
 		<div id="content" class="site-content archive container" role="main">
       <div class="row">
         <div class="col-md-12">
-	        <?php if (have_posts()) : ?>
-              <header class="archive-header">
-                <h1 class="archive-title"><?php printf( __('Категория: %s', 'portfolio'), '<strong>' . single_cat_title('', false) . '</strong>'); ?></h1>
-
-		          <?php if (category_description()) : ?>
-                    <div class="archive-meta"><?php echo category_description(); ?></div>
-		          <?php endif; ?>
-              </header><!-- .archive-header -->
-
-		        <?php while (have_posts()) : the_post(); ?>
-			        <?php get_template_part('content-archive', get_post_format()); ?>
-		        <?php endwhile; ?>
-
-	        <?php else : ?>
-		        <?php get_template_part('content', 'none'); ?>
-	        <?php endif; ?>
+          <h3>Категории</h3>
+          <ul>
+	        <?php $categories = get_categories(array(
+		        'orderby' => 'name',
+		        'order' => 'ASC'
+	        ));
+	        foreach( $categories as $category ){
+		        echo '<li><a href="' . str_replace('/category/', '/', get_category_link( $category->term_id ) ) . '" class="blog-link-category" title="' . sprintf( __( "View all posts in %s" ), $category->name ) . '" ' . '>' . $category->name.' <span class="cat-count">('.$category->count.')</span></a></li>';
+	        } ?>
+          </ul>
         </div>
       </div>
 
 		</div><!-- #content -->
-<!--		--><?php //portfolio_paging_nav(); ?>
 	</div><!-- #primary -->
 
 <?php get_footer(); ?>
