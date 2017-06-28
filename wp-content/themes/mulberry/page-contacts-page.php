@@ -104,7 +104,7 @@ get_header(); ?>
   </div><!-- /.modal -->
 
   <div id="G_map">
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2677.6095892800126!2d35.10478881589258!3d47.84715627932188!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dc66d5574bc109%3A0x844fd7c310a2b6d0!2z0LLRg9C70LjRhtGPINCf0LXRgNC10LzQvtCz0LgsIDIzLCDQl9Cw0L_QvtGA0ZbQttC20Y8sINCX0LDQv9C-0YDRltC30YzQutCwINC-0LHQu9Cw0YHRgtGM!5e0!3m2!1sru!2sua!4v1497000833147"
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2679.4201196519307!2d35.18109931589178!3d47.812075581753845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40dc5e730feb062b%3A0x75322ba4f718d508!2z0LLRg9C70LjRhtGPINCf0L7QutGA0L7QstGB0YzQutCwLCAyMywg0JfQsNC_0L7RgNGW0LbQttGPLCDQl9Cw0L_QvtGA0ZbQt9GM0LrQsCDQvtCx0LvQsNGB0YLRjA!5e0!3m2!1sru!2sua!4v1498644632265"
             width="100%"
             height="600"
             frameborder="0"

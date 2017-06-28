@@ -2,6 +2,11 @@
   font-family: CenturyGothic, sans-serif;
   line-height: 1.75;
 
+  [rowspan] {
+    background: #fff !important;
+    text-align: center;
+  }
+
   .entry-header{
     display: none;
   }
@@ -10,7 +15,7 @@
     vertical-align: middle;
 
     &:last-child{
-      text-align: center;
+      //text-align: center;
     }
   }
   

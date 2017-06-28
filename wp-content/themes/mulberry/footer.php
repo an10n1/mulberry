@@ -34,9 +34,9 @@
         </ul>
 
         <ul class="social-list">
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
-          <li><a href="#"></a></li>
+          <li><a href="https://vk.com/mulberryprint" target="_blank"></a></li>
+          <li><a href="https://www.facebook.com/Mulberry-печать-на-одежде-121590811770659/" target="_blank"></a></li>
+          <li><a href="https://www.instagram.com/mulberry.ua/" target="_blank"></a></li>
         </ul>
       </div>
       <div class="col-md-4 col-sm-6">
@@ -55,14 +55,14 @@
 
         <div class="footer-menu">
           <ul class="col-md-5 col-sm-6 col-xs-6">
-            <li><a href="">Доставка</a></li>
+            <!--<li><a href="">Доставка</a></li>-->
             <li><a href="/about">О нас</a></li>
-            <li><a href="/service">Продукция</a></li>
+            <!--<li><a href="/service">Продукция</a></li>-->
           </ul>
 
           <ul class="col-md-7 col-sm-6 col-xs-6">
-            <li><a href="">Возврат</a></li>
-            <li><a href="">Оптовым покупателям</a></li>
+            <!--<li><a href="">Возврат</a></li>-->
+            <!--<li><a href="">Оптовым покупателям</a></li>-->
             <li><a href="/contact">Связь с нами</a></li>
           </ul>
         </div>

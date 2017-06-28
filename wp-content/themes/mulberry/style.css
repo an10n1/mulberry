@@ -208,12 +208,13 @@ a {
 .l-coast {
   font-family: CenturyGothic, sans-serif;
   line-height: 1.75; }
+  .l-coast [rowspan] {
+    background: #fff !important;
+    text-align: center; }
   .l-coast .entry-header {
     display: none; }
   .l-coast .tablepress tbody td {
     vertical-align: middle; }
-    .l-coast .tablepress tbody td:last-child {
-      text-align: center; }
   .l-coast article {
     margin-bottom: 50px; }
     .l-coast article table:nth-of-type(1) th {
